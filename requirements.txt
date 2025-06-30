@@ -1,0 +1,8 @@
+logging~=0.4.9.6
+allure-python-commons~=2.13.5
+behave~=1.2.6
+google~=3.0.0
+python-dotenv~=1.0.1
+protobuf~=5.29.2
+keyboard~=0.13.5
+playwright~=1.52.0
