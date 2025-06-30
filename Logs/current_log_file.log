@@ -1,0 +1,90 @@
+30/06/2025 10:01:04 PM: INFO: logs_file: set_active_page: Active page set for screenshot functionality
+30/06/2025 10:01:13 PM: INFO: environment: before_all: Logged in and ready to test with Playwright.
+30/06/2025 10:01:13 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: (//li[@class='has-subnav ng-star-inserted'])[3]
+30/06/2025 10:01:15 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='adminDashboardContainer']/nav/ul[1]/li[5]/ul/li[11]/span
+30/06/2025 10:01:18 PM: INFO: enviHelper: open_page: Navigating to: https://rc.brij.it/brand/modules/sweepstakes
+30/06/2025 10:01:21 PM: INFO: enviHelper: get_value: Getting text from: //div[@id='mainContent']
+30/06/2025 10:01:22 PM: INFO: Module_Sweepstakes_steps: step_navigate_to_sweepstakes_module_page: Navigated to Sweepstakes Module page
+30/06/2025 10:01:22 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //h1[normalize-space()='Sweepstakes']
+30/06/2025 10:01:23 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: {'.notification'}
+30/06/2025 10:01:23 PM: ERROR: Module_Sweepstakes_steps: step_access_notification_button: Notification button access failed: Locator.click: Object of type set is not JSON serializable
+30/06/2025 10:01:23 PM: INFO: logs_file: attach_screenshot_in_report: Screenshot captured and attached: D:\playwright\Brij\Screenshots\screenshot_2025-06-30_22-01-23.png
+30/06/2025 10:01:23 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //img[@alt='logout']
+30/06/2025 10:01:24 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250630_220124.png
+30/06/2025 10:01:24 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //img[@alt='logout']
+30/06/2025 10:01:25 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //button[normalize-space()='Fields']
+30/06/2025 10:01:26 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-sweepstakes-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[1]/app-checkbox/div/p-checkbox
+30/06/2025 10:01:26 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250630_220126.png
+30/06/2025 10:01:26 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-sweepstakes-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[1]/app-checkbox/div/p-checkbox
+30/06/2025 10:01:27 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-sweepstakes-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[2]/app-checkbox/div/p-checkbox
+30/06/2025 10:01:28 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250630_220128.png
+30/06/2025 10:01:28 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-sweepstakes-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[2]/app-checkbox/div/p-checkbox
+30/06/2025 10:01:29 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-sweepstakes-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[3]/app-checkbox/div/p-checkbox
+30/06/2025 10:01:29 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250630_220129.png
+30/06/2025 10:01:30 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-sweepstakes-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[3]/app-checkbox/div/p-checkbox
+30/06/2025 10:01:30 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-sweepstakes-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[4]/app-checkbox/div/p-checkbox
+30/06/2025 10:01:31 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250630_220131.png
+30/06/2025 10:01:31 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-sweepstakes-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[4]/app-checkbox/div/p-checkbox
+30/06/2025 10:01:32 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //button[normalize-space()='Fields']
+30/06/2025 10:01:32 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='selectAllCol']/app-checkbox/div
+30/06/2025 10:01:33 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250630_220133.png
+30/06/2025 10:01:33 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='selectAllCol']/app-checkbox/div
+30/06/2025 10:01:34 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250630_220134.png
+30/06/2025 10:01:34 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: /html/body/app-root/app-brand-main/div/div/div[2]/div[2]/div/app-sweepstakes-listing/p-table/div/p-paginator/div/p-select/div/chevrondownicon
+30/06/2025 10:01:35 PM: ERROR: Module_Sweepstakes_steps: step_impl: Row count verification failed: Locator.click: Unexpected token "/" while parsing css selector "/html/body/app-root/app-brand-main/div/div/div[2]/div[2]/div/app-sweepstakes-listing/p-table/div/p-paginator/div/p-select/div/chevrondownicon". Did you mean to CSS.escape it?
+Call log:
+  - waiting for /html/body/app-root/app-brand-main/div/div/div[2]/div[2]/div/app-sweepstakes-listing/p-table/div/p-paginator/div/p-select/div/chevrondownicon
+
+30/06/2025 10:01:35 PM: INFO: logs_file: attach_screenshot_in_report: Screenshot captured and attached: D:\playwright\Brij\Screenshots\screenshot_2025-06-30_22-01-35.png
+30/06/2025 10:01:35 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250630_220135.png
+30/06/2025 10:01:35 PM: INFO: Module_Sweepstakes_steps: step_impl: the rows are updated successfully
+30/06/2025 10:01:35 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='warrantyName']
+30/06/2025 10:01:36 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250630_220136.png
+30/06/2025 10:01:37 PM: INFO: Module_Sweepstakes_steps: step_verify_table_sorted: the table data is sorted successfully
+30/06/2025 10:01:37 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //button[normalize-space()='New Sweepstakes']
+30/06/2025 10:01:40 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250630_220140.png
+30/06/2025 10:01:40 PM: INFO: enviHelper: insert_text_in_input_field: Filling //input[@placeholder='Enter module name...'] with: Auto Sweepstakes Test
+30/06/2025 10:01:41 PM: INFO: enviHelper: insert_text_in_input_field: Filling //input[@placeholder='Enter call to action...'] with: Testing
+30/06/2025 10:01:41 PM: INFO: enviHelper: insert_text_in_input_field: Filling //*[@id='style-1']/div/div[4]/app-form-control/div/app-editor/div/div[2]/div/p with: Demo
+30/06/2025 10:01:42 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250630_220142.png
+30/06/2025 10:01:42 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: /html/body/p-dynamicdialog/div/div/div[2]/app-module-edit-popup/app-sweepstakes-edit/form/div/div[1]/div[1]/div/app-p-button[2]/button
+30/06/2025 10:01:43 PM: ERROR: Module_Sweepstakes_steps: step_create_new_module: New Sweepstakes module creation failed: Locator.click: Unexpected token "/" while parsing css selector "/html/body/p-dynamicdialog/div/div/div[2]/app-module-edit-popup/app-sweepstakes-edit/form/div/div[1]/div[1]/div/app-p-button[2]/button". Did you mean to CSS.escape it?
+Call log:
+  - waiting for /html/body/p-dynamicdialog/div/div/div[2]/app-module-edit-popup/app-sweepstakes-edit/form/div/div[1]/div[1]/div/app-p-button[2]/button
+
+30/06/2025 10:01:43 PM: INFO: logs_file: attach_screenshot_in_report: Screenshot captured and attached: D:\playwright\Brij\Screenshots\screenshot_2025-06-30_22-01-43.png
+30/06/2025 10:01:43 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //span[@class='p-dialog-header-close-icon pi pi-times']
+30/06/2025 10:01:44 PM: INFO: enviHelper: get_value: Getting text from: {'xpath': '//tbody/tr[2]/td[1]'}
+30/06/2025 10:01:44 PM: ERROR: Module_Sweepstakes_steps: step_verify_new_module_added: New module verification failed: Locator.text_content: selector: expected string, got object
+30/06/2025 10:01:44 PM: INFO: logs_file: attach_screenshot_in_report: Screenshot captured and attached: D:\playwright\Brij\Screenshots\screenshot_2025-06-30_22-01-44.png
+30/06/2025 10:01:44 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: /html/body/app-root/app-brand-main/div/div/div[2]/div[2]/div/app-sweepstakes-listing/p-table/div/div/table/tbody/tr/td[7]/app-row-options/div/img
+30/06/2025 10:01:45 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: /html/body/app-root/app-brand-main/div/div/div[2]/div[2]/div/app-sweepstakes-listing/p-table/div/div/table/tbody/tr/td[7]/app-row-options/div/img
+30/06/2025 10:01:45 PM: ERROR: Module_Sweepstakes_steps: step_edit_module: Sweepstakes module edit failed: Locator.click: Unexpected token "/" while parsing css selector "/html/body/app-root/app-brand-main/div/div/div[2]/div[2]/div/app-sweepstakes-listing/p-table/div/div/table/tbody/tr/td[7]/app-row-options/div/img". Did you mean to CSS.escape it?
+Call log:
+  - waiting for /html/body/app-root/app-brand-main/div/div/div[2]/div[2]/div/app-sweepstakes-listing/p-table/div/div/table/tbody/tr/td[7]/app-row-options/div/img
+
+30/06/2025 10:01:45 PM: INFO: logs_file: attach_screenshot_in_report: Screenshot captured and attached: D:\playwright\Brij\Screenshots\screenshot_2025-06-30_22-01-45.png
+30/06/2025 10:01:45 PM: INFO: enviHelper: get_value: Getting text from: /html/body/app-root/app-brand-main/div/div/div[2]/div[2]/div/app-sweepstakes-listing/p-table/div/div/table/tbody/tr[1]/td[2]
+30/06/2025 10:01:45 PM: ERROR: Module_Sweepstakes_steps: step_verify_module_edited: Changes verification failed: Locator.text_content: Unexpected token "/" while parsing css selector "/html/body/app-root/app-brand-main/div/div/div[2]/div[2]/div/app-sweepstakes-listing/p-table/div/div/table/tbody/tr[1]/td[2]". Did you mean to CSS.escape it?
+Call log:
+  - waiting for /html/body/app-root/app-brand-main/div/div/div[2]/div[2]/div/app-sweepstakes-listing/p-table/div/div/table/tbody/tr[1]/td[2]
+
+30/06/2025 10:01:46 PM: INFO: logs_file: attach_screenshot_in_report: Screenshot captured and attached: D:\playwright\Brij\Screenshots\screenshot_2025-06-30_22-01-45.png
+30/06/2025 10:01:46 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: /html/body/app-root/app-brand-main/div/div/div[2]/div[2]/div/app-sweepstakes-listing/p-table/div/div/table/tbody/tr/td[7]/app-row-options/div/img
+30/06/2025 10:01:46 PM: ERROR: Module_Sweepstakes_steps: step_delete_module: Sweepstakes module deletion failed: Locator.click: Unexpected token "/" while parsing css selector "/html/body/app-root/app-brand-main/div/div/div[2]/div[2]/div/app-sweepstakes-listing/p-table/div/div/table/tbody/tr/td[7]/app-row-options/div/img". Did you mean to CSS.escape it?
+Call log:
+  - waiting for /html/body/app-root/app-brand-main/div/div/div[2]/div[2]/div/app-sweepstakes-listing/p-table/div/div/table/tbody/tr/td[7]/app-row-options/div/img
+
+30/06/2025 10:01:46 PM: INFO: logs_file: attach_screenshot_in_report: Screenshot captured and attached: D:\playwright\Brij\Screenshots\screenshot_2025-06-30_22-01-46.png
+30/06/2025 10:01:46 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='selectAllCol']/app-checkbox/div
+30/06/2025 10:01:47 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //button[normalize-space()='Delete']
+30/06/2025 10:02:18 PM: ERROR: enviHelper: wait_till_element_is_present_to_click: Timeout clicking //button[normalize-space()='Delete']: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("//button[normalize-space()='Delete']")
+
+30/06/2025 10:02:18 PM: INFO: logs_file: attach_screenshot_in_report: Screenshot captured and attached: D:\playwright\Brij\Screenshots\screenshot_2025-06-30_22-02-18.png
+30/06/2025 10:02:18 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250630_220218.png
+30/06/2025 10:02:20 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250630_220220.png
+30/06/2025 10:02:21 PM: INFO: enviHelper: insert_text_in_input_field: Filling //input[@placeholder='Search Items...'] with: test
+30/06/2025 10:02:21 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250630_220221.png
+30/06/2025 10:02:22 PM: INFO: environment: after_all: Browser closed, Playwright stopped.

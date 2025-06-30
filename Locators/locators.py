@@ -904,6 +904,18 @@ SWEEPSTAKES_FIELD_WHERE_USED = "//*[@id='mainContent']/div[2]/div/app-sweepstake
 SWEEPSTAKES_FIELD_SWEEPSTAKES_DURATION = "//*[@id='mainContent']/div[2]/div/app-sweepstakes-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[3]/app-checkbox/div/p-checkbox"
 SWEEPSTAKES_FIELD_CTA = "//*[@id='mainContent']/div[2]/div/app-sweepstakes-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[4]/app-checkbox/div/p-checkbox"
 SWEEPSTAKES_POPUP_DUPLICATE  = "//*[@id='style-1']/div/div[1]/div[2]/div/span"
+SWEEPSTAKES_POPUP_AS = "/html/body/p-dynamicdialog/div/div/div[2]/app-module-edit-popup/app-sweepstakes-edit/form/div/div[1]/div[1]/div/app-p-button[1]/button"
+SWEEPSTAKES_POPUP_AS_SHOW_STATUS = "//label[normalize-space()='Show Sweepstakes Entry Status']"
+SWEEPSTAKES_POPUP_AS_CUSTOMIZE = "//label[normalize-space()='Customize Sweepstakes State Messages']"
+SWEEPSTAKES_POPUP_AS_TEXT1 = "/html/body/p-dynamicdialog/div/div/div[2]/app-module-edit-popup/app-sweepstakes-edit/form/div/div[1]/div[2]/div[1]/div/div[2]/div/div[2]/div/div[1]/textarea"
+SWEEPSTAKES_POPUP_AS_TEXT2 = "/html/body/p-dynamicdialog/div/div/div[2]/app-module-edit-popup/app-sweepstakes-edit/form/div/div[1]/div[2]/div[1]/div/div[2]/div/div[2]/div/div[2]/textarea"
+SWEEPSTAKES_POPUP_AS_TEXT3 = "/html/body/p-dynamicdialog/div/div/div[2]/app-module-edit-popup/app-sweepstakes-edit/form/div/div[1]/div[2]/div[1]/div/div[2]/div/div[2]/div/div[3]/textarea"
+SWEEPSTAKES_POPUP_AS_TEXT4 = "/html/body/p-dynamicdialog/div/div/div[2]/app-module-edit-popup/app-sweepstakes-edit/form/div/div[1]/div[2]/div[1]/div/div[2]/div/div[2]/div/div[4]/textarea"
+SWEEPSTAKES_POPUP_AS_POST_CTA = "//label[normalize-space()='Customize Post-Registration CTA']"
+SWEEPSTAKES_POPUP_AS_POST_CTA_TEXT = "/html/body/p-dynamicdialog/div/div/div[2]/app-module-edit-popup/app-sweepstakes-edit/form/div/div[1]/div[2]/div[1]/div/div[2]/div/div[3]/div/textarea"
+SWEEPSTAKES_POPUP_AS_CUSTOMIZE_COLOUR = "//label[normalize-space()='Customize Button Colors']"
+SWEEPSTAKES_POPUP_AS_BACK = "//label[normalize-space()='Advanced Settings']"
+SWEEPSTAKES_POPUP_AS_SAVE = "/html/body/p-dynamicdialog/div/div/div[2]/app-module-edit-popup/app-sweepstakes-edit/form/div/div[1]/div[2]/div[1]/div/div[1]/div[2]/app-p-button/button"
 
 
 ### VIDEO MODULE ##
