@@ -1,18 +1,1 @@
-02/07/2025 02:42:46 AM: INFO: logs_file: set_active_page: Active page set for screenshot functionality
-02/07/2025 02:42:54 AM: INFO: environment: before_all: Logged in and ready to test with Playwright.
-02/07/2025 02:42:54 AM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: (//li[@class='has-subnav ng-star-inserted'])[3]
-02/07/2025 02:42:56 AM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //span[normalize-space()='Custom']
-02/07/2025 02:42:59 AM: INFO: enviHelper: open_page: Navigating to: https://rc.brij.it/brand/modules/custom
-02/07/2025 02:43:01 AM: INFO: enviHelper: get_value: Getting text from: //div[@id='mainContent']
-02/07/2025 02:43:01 AM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: .notification
-02/07/2025 02:43:01 AM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //img[@alt='logout']
-02/07/2025 02:43:01 AM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //button[normalize-space()='Fields']
-02/07/2025 02:43:01 AM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='selectAllCol']/app-checkbox/div/p-checkbox/div
-02/07/2025 02:43:01 AM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //button[normalize-space()='New Custom Module']
-02/07/2025 02:43:02 AM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //body[1]/app-root[1]/app-brand-main[1]/div[1]/div[1]/div[2]/div[2]/div[1]/app-custom-listing[1]/p-table[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[7]/app-row-options[1]/div[1]
-02/07/2025 02:43:02 AM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //body[1]/app-root[1]/app-brand-main[1]/div[1]/div[1]/div[2]/div[2]/div[1]/app-custom-listing[1]/p-table[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[7]/app-row-options[1]/div[1]
-02/07/2025 02:43:02 AM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //th[@id='moduleName']
-02/07/2025 02:43:02 AM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //div[@aria-label='dropdown trigger']
-02/07/2025 02:43:02 AM: INFO: enviHelper: insert_text_in_input_field: Filling //input[@placeholder='Search Items...'] with: Auto
-02/07/2025 02:43:02 AM: INFO: enviHelper: insert_text_in_input_field: Filling //input[@placeholder='Search Items...'] with: test
-02/07/2025 02:43:02 AM: INFO: environment: after_all: Browser closed, Playwright stopped.
+02/07/2025 03:38:53 AM: INFO: logs_file: set_active_page: Active page set for screenshot functionality

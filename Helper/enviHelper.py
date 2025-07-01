@@ -31,10 +31,36 @@ class Envi_Helper:
         log.info(f"Clicking: {selector}")
         try:
             element = self.page.locator(selector)
+            element.wait_for(state='visible', timeout=timeout)
+            element.wait_for(state='attached', timeout=timeout)
             element.click()
+            log.info(f"Clicked successfully: {selector}")
             return True
         except TimeoutError as e:
             log.error(f"Timeout clicking {selector}: {e}")
+            self.capture_screenshot()
+            return False
+        except Exception as e:
+            log.error(f"Error clicking {selector}: {e}")
+            self.capture_screenshot()
+            return False
+
+    def ensure_checkbox_is_checked(self, selector: str, timeout=10000):
+        log.info(f"Ensuring checkbox is checked: {selector}")
+        try:
+            checkbox = self.page.locator(selector)
+            checkbox.wait_for(state='visible', timeout=timeout)
+            checkbox.wait_for(state='attached', timeout=timeout)
+            is_checked = checkbox.is_checked()
+            if is_checked:
+                log.info(f"Checkbox {selector} is already checked.")
+            else:
+                checkbox.check()
+                log.info(f"Checkbox {selector} has been checked.")
+            return True
+
+        except Exception as e:
+            log.error(f"Error ensuring checkbox {selector} is checked: {e}")
             self.capture_screenshot()
             return False
 
