@@ -17,6 +17,8 @@ def step_impl(context):
         helper.wait_till_element_is_present_to_click("(//li[@class='has-subnav ng-star-inserted'])[3]")
         helper.wait_till_element_is_present_to_click("//span[normalize-space()='AB 899']")
         helper.get_value("//div[@id='mainContent']")
+        helper.open_page("https://rc.brij.it/brand/modules/ab899")
+        time.sleep(2)
         log.info("Navigated to Custom Module page")
         time.sleep(2)
         allure.attach("Navigated to AB899 page", name="Navigation", attachment_type=allure.attachment_type.TEXT)

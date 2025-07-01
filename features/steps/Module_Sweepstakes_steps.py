@@ -235,9 +235,9 @@ def step_edit_module(context):
             Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.SWEEPSTAKES_POPUP_SAVE_BUTTON)
             Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.SWEEPSTAKES_POPUP_CLOSE)
             time.sleep(2)
-        except Exception as e:
-            log.error(f"Sweepstakes module edit failed: {e}")
-            allure.attach(str(e), name="Module Edit Error", attachment_type=allure.attachment_type.TEXT)
+        except Exception as ex:
+            log.error(f"Sweepstakes module edit failed: {ex}")
+            allure.attach(str(ex), name="Module Edit Error", attachment_type=allure.attachment_type.TEXT)
 
 @then('the changes should be saved and reflected in the Sweepstakes module list')
 def step_verify_module_edited(context):
