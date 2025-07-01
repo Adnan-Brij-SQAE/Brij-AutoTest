@@ -2,7 +2,7 @@ import os
 import json
 
 # Define the Allure results directory (update the path as needed)
-allure_results_dir = os.path.abspath("Report/allure_result")
+allure_results_dir = os.path.abspath("Report//allure_result")
 
 # Ensure the directory exists
 os.makedirs(allure_results_dir, exist_ok=True)
@@ -31,11 +31,9 @@ with open(env_file, "w") as file:
 
 print("Allure metadata updated successfully!")
 
-import os
-
 
 def replace_trend_with_logo():
-    allure_report_path = r"D:\Vqode\Brij\Report\allure_report"
+    allure_report_path = r"D:\Vqode\Brij-AutoTest\Report\allure_report"
     index_file = os.path.join(allure_report_path, "index.html")
     logo_filename = "brij.PNG"
     logo_path = os.path.join(allure_report_path, logo_filename)
@@ -75,28 +73,3 @@ def generate_allure_report():
     os.system(r'allure generate Report/allure_result -o Report/allure_report --clean')
 
 generate_allure_report()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# import os
-#
-#
-# def generate_allure_report():
-#     """This method generates allure report from the allure results"""
-#     os.chdir(os.path.abspath(__file__+"/../../"))
-#     os.popen(r'allure generate Report\allure_result -o Report\allure_report --clean').read()
-#
-#
-# generate_allure_report()

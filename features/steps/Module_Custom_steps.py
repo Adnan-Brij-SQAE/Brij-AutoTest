@@ -36,6 +36,7 @@ def step_verify_notification_button(context):
     helper = Envi_Helper(context.page)
     helper.wait_till_element_is_present_to_click(locators.NOTIFICATION_ICON)
     helper.capture_screenshot()
+    helper.wait_till_element_is_present_to_click(locators.NOTIFICATION_ICON)
     allure.attach("Notification button accessible", name="Notification Verification")
 
 
@@ -44,6 +45,7 @@ def step_verify_logout_button(context):
     helper = Envi_Helper(context.page)
     helper.wait_till_element_is_present_to_click(locators.LOGOUT_BUTTON)
     helper.capture_screenshot()
+    helper.wait_till_element_is_present_to_click(locators.LOGOUT_BUTTON)
     allure.attach("Logout button accessible", name="Logout Verification")
 
 
@@ -60,6 +62,7 @@ def step_verify_field_module_name(context):
     helper = Envi_Helper(context.page)
     helper.wait_till_element_is_present_to_click(locators.CUSTOM_FIELD_MODULE_NAME)
     helper.capture_screenshot()
+    helper.wait_till_element_is_present_to_click(locators.CUSTOM_FIELD_MODULE_NAME)
     allure.attach("Module name accessible", name="Field Module Name Verification")
 
 
@@ -68,6 +71,7 @@ def step_verify_field_where_used(context):
     helper = Envi_Helper(context.page)
     helper.wait_till_element_is_present_to_click(locators.CUSTOM_FIELD_WHERE_USED)
     helper.capture_screenshot()
+    helper.wait_till_element_is_present_to_click(locators.CUSTOM_FIELD_WHERE_USED)
     allure.attach("'Where Used' accessible", name="Field Where Used Verification")
 
 
@@ -75,6 +79,9 @@ def step_verify_field_where_used(context):
 def step_verify_field_cta(context):
     helper = Envi_Helper(context.page)
     helper.wait_till_element_is_present_to_click(locators.CUSTOM_FIELD_CALL_TO_ACTION)
+    helper.capture_screenshot()
+    helper.wait_till_element_is_present_to_click(locators.CUSTOM_FIELD_CALL_TO_ACTION)
+    helper.wait_till_element_is_present_to_click(locators.CUSTOM_FIELD_BUTTON)
     allure.attach("'Call to Action' accessible", name="Field CTA Verification")
 
 
@@ -199,8 +206,8 @@ def step_verify_pagination(context):
 def step_delete_custom_module(context):
     helper = Envi_Helper(context.page)
     helper.insert_text_in_input_field(locators.CUSTOM_SEARCH, "Auto")
+    time.sleep(2)
     helper.wait_till_element_is_present_to_click(locators.CUSTOM_ECLIPSE)
-    helper.capture_screenshot()
     helper.wait_till_element_is_present_to_click(locators.CUSTOM_ECLIPSE_DELETE)
     helper.capture_screenshot()
     helper.wait_till_element_is_present_to_click(locators.CUSTOM_CONFIRM_DELETE_BUTTON)
@@ -212,7 +219,6 @@ def step_delete_multiple_custom_modules(context):
     helper = Envi_Helper(context.page)
     helper.insert_text_in_input_field(locators.CUSTOM_SEARCH, "Auto")
     helper.wait_till_element_is_present_to_click(locators.CUSTOM_ALL_CHECK)
-    helper.capture_screenshot()
     helper.wait_till_element_is_present_to_click(locators.CUSTOM_DELETE_ALL)
     helper.wait_till_element_is_present_to_click(locators.CUSTOM_DELETE_CONFIRM)
     helper.capture_screenshot()
