@@ -5,9 +5,9 @@ import os
 import webbrowser
 
 # Constants
-ALLURE_RESULT_DIR = "D:\\playwright\\Brij\\Report\\allure_result"
-ALLURE_REPORT_DIR = "D:\\playwright\\Brij\\Report\\allure_report"
-FEATURES_DIR = "D:\\playwright\\Brij\\features"
+ALLURE_RESULT_DIR = "D:\\Vqode\\Brij-AutoTest\\Report\\allure_result\\"
+ALLURE_REPORT_DIR = "D:\\Vqode\\Brij-AutoTest\\Report\\allure_report\\"
+FEATURES_DIR = "D:\\Vqode\\Brij-AutoTest\\features"
 
 def get_feature_files():
     return [f for f in os.listdir(FEATURES_DIR) if f.endswith(".feature")]
@@ -64,7 +64,7 @@ def open_report():
 
 # GUI Setup
 window = tk.Tk()
-window.title("BDD Test Runner")
+window.title("Brij Auto Test")
 window.geometry("500x500")
 
 # Title
