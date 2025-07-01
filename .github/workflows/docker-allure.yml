@@ -1,0 +1,36 @@
+name: Docker Test with Allure Report
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build Docker Image
+        run: docker build -t brij-app .
+
+      - name: Run Tests Inside Docker
+        run: docker run --rm -v ${{ github.workspace }}/allure-results:/app/allure-results brij-app
+
+      - name: Install Allure CLI (on GitHub runner)
+        run: npm install -g allure-commandline
+
+      - name: Generate Allure Report
+        run: allure generate --clean allure-results -o allure-report
+
+      - name: Deploy Allure Report to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./allure-report
