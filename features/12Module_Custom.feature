@@ -30,14 +30,14 @@ Feature: Test Custom Module Page
     When the user creates a new Custom module
     Then the new Custom module should appear in the module list
 
-  @allure.feature.CustomModule @edit_module
-  Scenario: Verify editing an existing Custom module
-    When the user edits an existing Custom module
-    Then the changes should be made with the updated custom module
-
   @allure.feature.CustomModule @duplicate_module
   Scenario: Verify duplicating an existing Custom module
     When the user duplicates an existing Custom module
+    Then the changes should be made with the updated custom module
+
+  @allure.feature.CustomModule @edit_module
+  Scenario: Verify editing an existing Custom module
+    When the user edits an existing Custom module
     Then the changes should be made with the updated custom module
 
   @allure.feature.CustomModule @sort

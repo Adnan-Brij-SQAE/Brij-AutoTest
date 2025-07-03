@@ -1,1 +1,209 @@
-02/07/2025 03:38:53 AM: INFO: logs_file: set_active_page: Active page set for screenshot functionality
+03/07/2025 12:16:23 PM: INFO: logs_file: set_active_page: Active page set for screenshot functionality
+03/07/2025 12:16:31 PM: INFO: environment: before_all: Logged in and ready to test with Playwright.
+03/07/2025 12:16:31 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: (//li[@class='has-subnav ng-star-inserted'])[3]
+03/07/2025 12:16:33 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: (//li[@class='has-subnav ng-star-inserted'])[3]
+03/07/2025 12:16:33 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //span[normalize-space()='Rebate Campaign']
+03/07/2025 12:16:33 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //span[normalize-space()='Rebate Campaign']
+03/07/2025 12:16:35 PM: INFO: enviHelper: open_page: Navigating to: https://rc.brij.it/brand/modules/sms/campaigns
+03/07/2025 12:16:37 PM: INFO: enviHelper: get_value: Getting text from selector: //div[@id='mainContent']
+03/07/2025 12:16:40 PM: INFO: enviHelper: get_value: Retrieved value from //div[@id='mainContent']: Rebate Campaign
+
+Total Campaign Modules0 Fields  New Rebate Campaign  Campaign Name  Phone Number  Date Range  Campaign Flow  Rebate Terms  Max Rebate Amount  Status  Where Used  Rows per page: 0-0 of 0 entries20
+03/07/2025 12:16:40 PM: INFO: Module_Rebate_campaign_steps: step_impl: Navigated to Video Module page
+03/07/2025 12:16:43 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_121642.png
+03/07/2025 12:16:43 PM: INFO: enviHelper: get_value: Getting text from selector: //h1[normalize-space()='Rebate Campaign']
+03/07/2025 12:16:43 PM: INFO: enviHelper: get_value: Retrieved value from //h1[normalize-space()='Rebate Campaign']: Rebate Campaign
+03/07/2025 12:16:43 PM: INFO: Module_Rebate_campaign_steps: step_impl: Successfully navigated to Rebate Campaign Module page
+03/07/2025 12:16:43 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: .notification
+03/07/2025 12:16:43 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: .notification
+03/07/2025 12:16:43 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_121643.png
+03/07/2025 12:16:43 PM: INFO: Module_Rebate_campaign_steps: step_impl: Notification button is accessible
+03/07/2025 12:16:43 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //img[@alt='logout']
+03/07/2025 12:16:44 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //img[@alt='logout']
+03/07/2025 12:16:44 PM: INFO: Module_Rebate_campaign_steps: step_impl: Logout button is accessible
+03/07/2025 12:16:44 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_121644.png
+03/07/2025 12:16:44 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //button[normalize-space()='Fields']
+03/07/2025 12:16:44 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //button[normalize-space()='Fields']
+03/07/2025 12:16:44 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-sms-modules-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[1]/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:44 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //*[@id='mainContent']/div[2]/div/app-sms-modules-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[1]/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:44 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_121644.png
+03/07/2025 12:16:44 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-sms-modules-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[1]/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:45 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //*[@id='mainContent']/div[2]/div/app-sms-modules-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[1]/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:45 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-sms-modules-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[2]/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:45 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //*[@id='mainContent']/div[2]/div/app-sms-modules-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[2]/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:45 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_121645.png
+03/07/2025 12:16:45 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-sms-modules-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[2]/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:45 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //*[@id='mainContent']/div[2]/div/app-sms-modules-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[2]/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:45 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-sms-modules-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[3]/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:45 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //*[@id='mainContent']/div[2]/div/app-sms-modules-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[3]/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:45 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_121645.png
+03/07/2025 12:16:45 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-sms-modules-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[3]/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:46 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //*[@id='mainContent']/div[2]/div/app-sms-modules-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[3]/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:46 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-sms-modules-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[4]/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:46 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //*[@id='mainContent']/div[2]/div/app-sms-modules-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[4]/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:46 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_121646.png
+03/07/2025 12:16:46 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-sms-modules-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[4]/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:46 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //*[@id='mainContent']/div[2]/div/app-sms-modules-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[4]/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:46 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-sms-modules-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[5]/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:46 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //*[@id='mainContent']/div[2]/div/app-sms-modules-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[5]/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:46 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_121646.png
+03/07/2025 12:16:46 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-sms-modules-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[5]/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:47 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //*[@id='mainContent']/div[2]/div/app-sms-modules-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[5]/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:47 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-sms-modules-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[6]/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:47 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //*[@id='mainContent']/div[2]/div/app-sms-modules-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[6]/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:47 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_121647.png
+03/07/2025 12:16:47 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-sms-modules-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[6]/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:47 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //*[@id='mainContent']/div[2]/div/app-sms-modules-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[6]/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:47 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-sms-modules-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[7]/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:47 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //*[@id='mainContent']/div[2]/div/app-sms-modules-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[7]/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:47 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_121647.png
+03/07/2025 12:16:47 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-sms-modules-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[7]/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:48 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //*[@id='mainContent']/div[2]/div/app-sms-modules-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[7]/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:48 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-sms-modules-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[8]/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:48 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //*[@id='mainContent']/div[2]/div/app-sms-modules-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[8]/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:48 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_121648.png
+03/07/2025 12:16:48 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-sms-modules-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[8]/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:48 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //*[@id='mainContent']/div[2]/div/app-sms-modules-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[8]/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:48 PM: INFO: Module_Rebate_campaign_steps: step_impl: Field button is accessible
+03/07/2025 12:16:48 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_121648.png
+03/07/2025 12:16:48 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='selectAllCol']/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:48 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //*[@id='selectAllCol']/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:49 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_121648.png
+03/07/2025 12:16:49 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='selectAllCol']/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:49 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //*[@id='selectAllCol']/app-checkbox/div/p-checkbox/div
+03/07/2025 12:16:49 PM: INFO: Module_Rebate_campaign_steps: step_impl: All checkboxes selected
+03/07/2025 12:16:49 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //th[@id='moduleName ']
+03/07/2025 12:16:49 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //th[@id='moduleName ']
+03/07/2025 12:16:49 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_121649.png
+03/07/2025 12:16:49 PM: INFO: Module_Rebate_campaign_steps: step_impl: sorted with Campaign name and screenshot attached
+03/07/2025 12:16:49 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //th[@id='moduleName ']
+03/07/2025 12:16:49 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //th[@id='moduleName ']
+03/07/2025 12:16:49 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //th[@id='phoneNumber']
+03/07/2025 12:16:49 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //th[@id='phoneNumber']
+03/07/2025 12:16:50 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_121649.png
+03/07/2025 12:16:50 PM: INFO: Module_Rebate_campaign_steps: step_impl: sorted with Phone Number and screenshot attached
+03/07/2025 12:16:50 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //th[@id='phoneNumber']
+03/07/2025 12:16:50 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //th[@id='phoneNumber']
+03/07/2025 12:16:50 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //th[@id='whereUsed']
+03/07/2025 12:16:50 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //th[@id='whereUsed']
+03/07/2025 12:16:50 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_121650.png
+03/07/2025 12:16:50 PM: INFO: Module_Rebate_campaign_steps: step_impl: sorted with where used and screenshot attached
+03/07/2025 12:16:50 PM: INFO: Module_Rebate_campaign_steps: step_impl: Table sorted
+03/07/2025 12:16:50 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //div[@aria-label='dropdown trigger']
+03/07/2025 12:16:50 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //div[@aria-label='dropdown trigger']
+03/07/2025 12:16:50 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_121650.png
+03/07/2025 12:16:51 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //span[@class='ng-star-inserted'][normalize-space()='20']
+03/07/2025 12:16:51 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //span[@class='ng-star-inserted'][normalize-space()='20']
+03/07/2025 12:16:51 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_121651.png
+03/07/2025 12:16:51 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //div[@aria-label='dropdown trigger']
+03/07/2025 12:16:51 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //div[@aria-label='dropdown trigger']
+03/07/2025 12:16:51 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_121651.png
+03/07/2025 12:16:51 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //span[normalize-space()='100']
+03/07/2025 12:16:51 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //span[normalize-space()='100']
+03/07/2025 12:16:52 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_121651.png
+03/07/2025 12:16:52 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //div[@aria-label='dropdown trigger']
+03/07/2025 12:16:52 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //div[@aria-label='dropdown trigger']
+03/07/2025 12:16:52 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_121652.png
+03/07/2025 12:16:52 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //span[normalize-space()='1000']
+03/07/2025 12:16:52 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //span[normalize-space()='1000']
+03/07/2025 12:16:52 PM: INFO: Module_Rebate_campaign_steps: step_impl: Tested Rebate Campaign module pagination
+03/07/2025 12:16:52 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //button[normalize-space()='New Rebate Campaign']
+03/07/2025 12:16:52 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //button[normalize-space()='New Rebate Campaign']
+03/07/2025 12:16:54 PM: INFO: Module_Rebate_campaign_steps: step_impl: Opened Add/Edit Rebate Campaign Popup
+03/07/2025 12:16:54 PM: INFO: enviHelper: insert_text_in_input_field: Filling //input[@placeholder='Enter module name...'] with: Auto Rebate Campaign
+03/07/2025 12:16:55 PM: INFO: Module_Rebate_campaign_steps: step_impl: Named the  Rebate Campaign Popup
+03/07/2025 12:16:55 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_121655.png
+03/07/2025 12:16:55 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: (//span[@class='ng-star-inserted'][normalize-space()='Select an option'])[1]
+03/07/2025 12:16:55 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: (//span[@class='ng-star-inserted'][normalize-space()='Select an option'])[1]
+03/07/2025 12:16:55 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //div[@title='None']
+03/07/2025 12:16:56 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //div[@title='None']
+03/07/2025 12:16:56 PM: INFO: enviHelper: insert_text_in_input_field: Filling //input[@placeholder='Enter grace period...'] with: 5
+03/07/2025 12:16:56 PM: INFO: Module_Rebate_campaign_steps: step_impl: entered the grace period
+03/07/2025 12:16:56 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //span[@aria-label='Select an option']
+03/07/2025 12:16:56 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //span[@aria-label='Select an option']
+03/07/2025 12:16:56 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //span[normalize-space()='Buy X Get Y Cash Back']
+03/07/2025 12:16:56 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //span[normalize-space()='Buy X Get Y Cash Back']
+03/07/2025 12:16:56 PM: INFO: Module_Rebate_campaign_steps: step_impl: selected rebate terms buy X get Y cash Add/Edit Rebate Campaign Popup
+03/07/2025 12:16:56 PM: INFO: enviHelper: insert_text_in_input_field: Filling //*[@id='style-1']/div/div[5]/div/div[1]/div/input with: 5
+03/07/2025 12:17:06 PM: ERROR: enviHelper: insert_text_in_input_field: Timeout filling //*[@id='style-1']/div/div[5]/div/div[1]/div/input: Locator.fill: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("//*[@id='style-1']/div/div[5]/div/div[1]/div/input")
+
+03/07/2025 12:17:07 PM: INFO: logs_file: attach_screenshot_in_report: Screenshot captured and attached: D:\Vqode\Brij-AutoTest\Screenshots\screenshot_2025-07-03_12-17-06.png
+03/07/2025 12:17:07 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_121707.png
+03/07/2025 12:17:07 PM: INFO: Module_Rebate_campaign_steps: step_impl: entered quantity 
+03/07/2025 12:17:07 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='style-1']/div/div[5]/div/div[2]/div/div/span[2]/img
+03/07/2025 12:17:17 PM: ERROR: enviHelper: wait_till_element_is_present_to_click: Timeout clicking //*[@id='style-1']/div/div[5]/div/div[2]/div/div/span[2]/img: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("//*[@id='style-1']/div/div[5]/div/div[2]/div/div/span[2]/img") to be visible
+
+03/07/2025 12:17:18 PM: INFO: logs_file: attach_screenshot_in_report: Screenshot captured and attached: D:\Vqode\Brij-AutoTest\Screenshots\screenshot_2025-07-03_12-17-17.png
+03/07/2025 12:17:18 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_121718.png
+03/07/2025 12:17:18 PM: INFO: Module_Rebate_campaign_steps: step_impl: entered payout amount 
+03/07/2025 12:17:19 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_121718.png
+03/07/2025 12:17:19 PM: INFO: enviHelper: insert_text_in_input_field: Filling //input[@formcontrolname='requiredProduct'] with: Donuts
+03/07/2025 12:17:19 PM: INFO: Module_Rebate_campaign_steps: step_impl: entered product name 
+03/07/2025 12:17:19 PM: INFO: enviHelper: insert_text_in_input_field: Filling /html/body/p-dynamicdialog/div/div/div[2]/app-module-edit-popup/app-sms-modules-edit/form/div/div[1]/div[2]/div/div[7]/div/input with: 2
+03/07/2025 12:17:20 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //button[normalize-space()='Save']
+03/07/2025 12:17:20 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //button[normalize-space()='Save']
+03/07/2025 12:17:20 PM: ERROR: Module_Rebate_campaign_steps: step_impl: Creation of new Rebate Campaign module failed: Locator.fill: Unexpected token "/" while parsing css selector "/html/body/p-dynamicdialog/div/div/div[2]/app-module-edit-popup/app-sms-modules-edit/form/div/div[1]/div[2]/div/div[7]/div/input". Did you mean to CSS.escape it?
+Call log:
+  - waiting for /html/body/p-dynamicdialog/div/div/div[2]/app-module-edit-popup/app-sms-modules-edit/form/div/div[1]/div[2]/div/div[7]/div/input
+
+03/07/2025 12:17:20 PM: INFO: logs_file: attach_screenshot_in_report: Screenshot captured and attached: D:\Vqode\Brij-AutoTest\Screenshots\screenshot_2025-07-03_12-17-20.png
+03/07/2025 12:17:21 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_121720.png
+03/07/2025 12:17:21 PM: INFO: enviHelper: insert_text_in_input_field: Filling //input[@placeholder='Search Items...'] with: auto Rebate 
+03/07/2025 12:17:23 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //th[@id='moduleName ']
+03/07/2025 12:17:23 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //th[@id='moduleName ']
+03/07/2025 12:17:25 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //img[@class='menu-icon options-menu-icon']
+03/07/2025 12:17:26 PM: ERROR: enviHelper: wait_till_element_is_present_to_click: Error clicking //img[@class='menu-icon options-menu-icon']: Locator.wait_for: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("//img[@class='menu-icon options-menu-icon']") to be visible
+
+03/07/2025 12:17:26 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:26 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:26 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:26 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:26 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:26 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:26 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:26 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:26 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:26 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:26 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:26 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:27 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:27 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:27 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:27 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:27 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:27 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:27 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:27 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:27 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:27 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:27 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:27 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:27 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:27 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:27 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:27 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:27 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:27 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:27 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:27 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:27 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:27 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:27 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:27 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:28 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:28 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:28 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:28 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:28 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:28 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:28 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:28 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:28 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:28 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed
+03/07/2025 12:17:29 PM: ERROR: logs_file: attach_screenshot_in_report: Failed to capture and attach screenshot: Page.screenshot: Target page, context or browser has been closed

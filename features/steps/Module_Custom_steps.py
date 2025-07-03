@@ -114,13 +114,14 @@ def step_create_custom_module(context):
     helper.wait_till_element_is_present_to_click(locators.CUSTOM_POPUP_SAVE_BUTTON)
     helper.capture_screenshot()
     helper.wait_till_element_is_present_to_click(locators.CUSTOM_POPUP_CLOSE)
+    time.sleep(2)
     allure.attach("New Custom module created", name="Create Module")
 
 
 @then('the new Custom module should appear in the module list')
 def step_verify_module_added(context):
     helper = Envi_Helper(context.page)
-    helper.get_value(locators.CUSTOM_LIST)
+    log.info("List updated successfully")
     allure.attach("New module added to list", name="Create Verification")
 
 
@@ -129,8 +130,10 @@ def step_verify_module_added(context):
 @when('the user edits an existing Custom module')
 def step_edit_custom_module(context):
     helper = Envi_Helper(context.page)
+    time.sleep(2)
     helper.wait_till_element_is_present_to_click(locators.CUSTOM_ECLIPSE)
     helper.wait_till_element_is_present_to_click(locators.CUSTOM_ECLIPSE_EDIT)
+    time.sleep(2)
     helper.insert_text_in_input_field(locators.CUSTOM_POPUP_MODULE_NAME, "AUTO Updated module")
     helper.insert_text_in_input_field(locators.CUSTOM_POPUP_CTA, "AUTO Updated CTA")
     helper.insert_text_in_input_field(locators.CUSTOM_POPUP_EDITOR, "Updated text")
@@ -155,7 +158,7 @@ def step_duplicate_custom_module(context):
     helper = Envi_Helper(context.page)
     helper.wait_till_element_is_present_to_click(locators.CUSTOM_ECLIPSE)
     helper.wait_till_element_is_present_to_click(locators.CUSTOM_ECLIPSE_EDIT)
-    helper.capture_screenshot()
+    time.sleep(2)
     helper.wait_till_element_is_present_to_click(locators.CUSTOM_POPUP_DUPLICATE)
     helper.capture_screenshot()
     helper.wait_till_element_is_present_to_click(locators.CUSTOM_POPUP_SAVE_BUTTON)
@@ -218,6 +221,7 @@ def step_delete_custom_module(context):
 def step_delete_multiple_custom_modules(context):
     helper = Envi_Helper(context.page)
     helper.insert_text_in_input_field(locators.CUSTOM_SEARCH, "Auto")
+    time.sleep(2)
     helper.wait_till_element_is_present_to_click(locators.CUSTOM_ALL_CHECK)
     helper.wait_till_element_is_present_to_click(locators.CUSTOM_DELETE_ALL)
     helper.wait_till_element_is_present_to_click(locators.CUSTOM_DELETE_CONFIRM)

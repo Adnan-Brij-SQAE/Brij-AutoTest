@@ -33,7 +33,7 @@ print("Allure metadata updated successfully!")
 
 
 def replace_trend_with_logo():
-    allure_report_path = r"D:\Vqode\Brij-AutoTest\Report\allure_report"
+    allure_report_path = r"D:\Vqode\Brij-AutoTest\Report"
     index_file = os.path.join(allure_report_path, "index.html")
     logo_filename = "brij.PNG"
     logo_path = os.path.join(allure_report_path, logo_filename)

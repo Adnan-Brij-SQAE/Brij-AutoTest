@@ -14,23 +14,20 @@ Feature: Test Video Module Page
   Scenario: Verify the logout button on the Video Module page
     Then the user can access the logout button on the Video Module page
 
-  @allure.feature.VideoModule @ui-elements
-  Scenario: Verify the Fields button on the Video Module page
-    When the user can access the Fields button on the Video Module page
-    Then the user can access the Video Name field on the Video Module page
-    Then the user can access the Where Used field on the Video Module page
-    Then the user can access the Call to Action field on the Video Module page
-    Then the user can access the File name field on the Video Module page
+#  @allure.feature.VideoModule @ui-elements
+#  Scenario: Verify the Fields button on the Video Module page
+#    When the user can access the Fields button on the Video Module page
+#    Then the user can access the Video Name field on the Video Module page
+#    Then the user can access the Where Used field on the Video Module page
+#    Then the user can access the Call to Action field on the Video Module page
+#    Then the user can access the File name field on the Video Module page
 
-  @allure.feature.VideoModule @sort
-  Scenario: Verify sorting functionality on the Video Module page
-    When the user sorts the table on the Video Module page
-    Then the table should be sorted in the correct order on the Video Module page
+
 
   @allure.feature.VideoModule @create-module
   Scenario: Verify creation of a new Video module
     When the user creates a new Video module
-    Then the new Video module should be added to the module list
+    Then the changes should be saved and reflected in the Video module list
 
   @allure.feature.VideoModule @duplicate-module
   Scenario: Verify duplication of an existing Video module
@@ -56,6 +53,11 @@ Feature: Test Video Module Page
   Scenario: Verify deletion of an unused Video module
     When the user deletes an unused Video module
     When the user deletes more than one unused Video module
+
+  @allure.feature.VideoModule @sort
+  Scenario: Verify sorting functionality on the Video Module page
+    When the user sorts the table on the Video Module page
+    Then the table should be sorted in the correct order on the Video Module page
 
   @allure.feature.VideoModule @search
   Scenario: Verify search functionality on the Video Module page

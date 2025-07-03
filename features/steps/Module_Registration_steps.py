@@ -201,8 +201,8 @@ def step_impl(context):
             log.info("description added ")
             try:
                 Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_FORM)
-                Envi_Helper(context.page).insert_text_in_input_field(locators.REGISTRATION_FORM_SEARCH,"sqa")
-                Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_FORM_SEARCH_OPTION)
+                Envi_Helper(context.page).insert_text_in_input_field(locators.REGISTRATION_FORM_SEARCH,"form")
+                Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_MODULE_FORM_SEARCH_OPTION)
                 log.info("form added ")
             except Exception as e:
                 log.error("form not added")
@@ -319,15 +319,15 @@ def step_impl(context):
                     log.error(f"Require Approval not working {e}")
             except Exception as e:
                 log.error(f"unable to navigate to advance setting clicking save button to save registration")
-                Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_POPUP_SAVE_BUTTON)
+
             Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_AS_SAVE)
-            time.sleep(4)
-            Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_AS_SAVE_CONFIRM)
+            # Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_AS_back)
+            Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_SAVE)
+            Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_cross)
             allure.attach("New Registration module created successfully",name="Module Creation Success",attachment_type=allure.attachment_type.TEXT)
         except Exception as e:
             time.sleep(2)
-            Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_AS_back)
-            Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_SAVE)
+            Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_cross)
             log.error(f"Failed to create new Registration module: {e}")
             allure.attach(str(e),name="Module Creation Error",attachment_type=allure.attachment_type.TEXT)
 
@@ -355,10 +355,8 @@ def step_impl(context):
             Envi_Helper(context.page).insert_text_in_input_field(locators.REGISTRATION_POPUP_MODULE_NAME,"Updated Auto Warranty Test", 10)
             Envi_Helper(context.page).insert_text_in_input_field(locators.REGISTRATION_POPUP_CTA, " updated Testing",10)
             Envi_Helper(context.page).capture_screenshot()
-            Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_POPUP_SAVE_BUTTON)
-            time.sleep(2)
-            Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_POPUP_CROSS)
-            time.sleep(2)
+            Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_SAVE)
+            Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_cross)
 
             allure.attach("Registration module edited successfully",name="Module Edit Success",attachment_type=allure.attachment_type.TEXT)
         except Exception as e:
@@ -401,16 +399,12 @@ def step_impl(context):
 @when(u'the user duplicates an existing Registration Module')
 def step_impl(context):
     Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_LIST_KEBAB)
-    time.sleep(2)
     Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_EDIT_OPTION)
-    time.sleep(2)
     Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_DUPLICATE)
     Envi_Helper(context.page).insert_text_in_input_field(locators.REGISTRATION_POPUP_CTA, " Duplicate Registration module ", 10)
     Envi_Helper(context.page).capture_screenshot()
-    Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_POPUP_SAVE_BUTTON)
-    time.sleep(2)
-    Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_POPUP_CROSS)
-    time.sleep(2)
+    Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_SAVE)
+    Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_cross)
 
 
 @when(u'the user selects more than one Registration Module and deletes them')

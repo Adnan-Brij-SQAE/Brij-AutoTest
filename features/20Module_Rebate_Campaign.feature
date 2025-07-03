@@ -33,13 +33,13 @@ Feature: Test Rebate Campaign Module page
   Scenario: Create New Rebate Campaign Module
     Then the user can create new Rebate Campaign module from on Rebate Campaign Module page
 
-  @allure.feature.RebateCampaignPage @edit_module @allure.severity:critical
-  Scenario: Edit Existing Rebate Campaign Module
-    Then the user can edit the previous Rebate Campaign module on Rebate Campaign Module page
-
   @allure.feature.RebateCampaignPage @rebate_Campaign_module @allure.severity:normal
   Scenario: Test functionality duplicate Rebate Campaign Page
     Then the user can create duplicate Rebate Campaign page
+
+  @allure.feature.RebateCampaignPage @edit_module @allure.severity:critical
+  Scenario: Edit Existing Rebate Campaign Module
+    Then the user can edit the previous Rebate Campaign module on Rebate Campaign Module page
 
   @allure.feature.RebateCampaignPage @Delete @allure.severity:critical
   Scenario: Delete Rebate Campaign Module

@@ -16,6 +16,21 @@ Scenario: Access Logout Button on Rebate Signup Page Module page
 Scenario: Access Field Button on Rebate Signup Page Module page
   Then the user can access the field button on Rebate Signup Page Module page
 
+@allure.feature.RebateSignupPage @AddModule @allure.severity:critical
+Scenario: Create New Rebate Signup Module
+  When the user create new Rebate Signup module
+  Then the changes should be made with the updated Rebate Signup module list
+
+  @allure.feature.RebateSignupPage @EditModule @allure.severity:critical
+Scenario: Edit Existing Rebate Signup Module
+  Then the user can edit the previous Rebate Signup module
+  Then the changes should be made with the updated Document module list
+
+@allure.feature.RebateSignupPage @Duplicate @allure.severity:normal
+Scenario: Test functionality duplicate Rebate Signup Page
+  Then the user can create duplicate Rebate Signup page
+  Then the changes should be made with the updated Document module list
+
 @allure.feature.RebateSignupPage @AllCheckboxes @allure.severity:normal
 Scenario: Select All Checkbox on Rebate Signup Page Module page
   Then the user can select All checkbox on Rebate Signup Page Module page
@@ -28,18 +43,6 @@ Scenario: Sort Table on Rebate Signup Page Module page
   Scenario: Verify pagination functionality on the Rebate signup Page
     Then the user want to see the number of rows on Rebate Signup Page
 
-@allure.feature.RebateSignupPage @AddModule @allure.severity:critical
-Scenario: Create New Rebate Signup Module
-  When the user create new Rebate Signup module
-  Then the new rebate signup page should appear in list
-
-@allure.feature.RebateSignupPage @EditModule @allure.severity:critical
-Scenario: Edit Existing Rebate Signup Module
-  Then the user can edit the previous Rebate Signup module
-
-@allure.feature.RebateSignupPage @Duplicate @allure.severity:normal
-Scenario: Test functionality duplicate Rebate Signup Page
-  Then the user can create duplicate Rebate Signup page
 
 @allure.feature.RebateSignupPage @Delete @allure.severity:critical
 Scenario: Delete Rebate Signup Module

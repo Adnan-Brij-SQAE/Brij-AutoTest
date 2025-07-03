@@ -202,6 +202,7 @@ def step_create_new_module(context):
             Envi_Helper(context.page).insert_text_in_input_field(locators.SWEEPSTAKES_POPUP_CTA, "Testing")
             Envi_Helper(context.page).insert_text_in_input_field(locators.SWEEPSTAKES_POPUP_EDITOR, "Demo")
             Envi_Helper(context.page).capture_screenshot()
+            Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.SWEEPSTAKES_POPUP_SAVE_BUTTON)
             Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.SWEEPSTAKES_POPUP_AS)
             Envi_Helper(context.page).ensure_checkbox_is_checked(locators.SWEEPSTAKES_POPUP_AS_SHOW_STATUS)
             Envi_Helper(context.page).ensure_checkbox_is_checked(locators.SWEEPSTAKES_POPUP_AS_CUSTOMIZE)
@@ -212,6 +213,7 @@ def step_create_new_module(context):
             Envi_Helper(context.page).ensure_checkbox_is_checked(locators.SWEEPSTAKES_POPUP_AS_POST_CTA)
             Envi_Helper(context.page).insert_text_in_input_field(locators.SWEEPSTAKES_POPUP_AS_POST_CTA_TEXT, "Auto text")
             Envi_Helper(context.page).ensure_checkbox_is_checked(locators.SWEEPSTAKES_POPUP_AS_CUSTOMIZE_COLOUR)
+            Envi_Helper(context.page).capture_screenshot()
             Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.SWEEPSTAKES_POPUP_AS_SAVE)
             Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.SWEEPSTAKES_POPUP_AS_BACK)
             Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.SWEEPSTAKES_POPUP_SAVE_BUTTON)
@@ -291,7 +293,6 @@ def step_verify_module_deleted(context):
 def step_impl(context):
     with allure.step("User checks number of rows"):
         try:
-
             Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.SWEEPSTAKES_ROWPERPAGE_OPTION)
             Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.SWEEPSTAKES_ROWPERPAGE_100)
             Envi_Helper(context.page).capture_screenshot()

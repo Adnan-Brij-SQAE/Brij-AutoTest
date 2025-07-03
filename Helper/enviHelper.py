@@ -32,7 +32,6 @@ class Envi_Helper:
         try:
             element = self.page.locator(selector)
             element.wait_for(state='visible', timeout=timeout)
-            element.wait_for(state='attached', timeout=timeout)
             element.click()
             log.info(f"Clicked successfully: {selector}")
             return True
@@ -75,13 +74,36 @@ class Envi_Helper:
             return False
 
     def get_value(self, selector: str, timeout=10000):
-        log.info(f"Getting text from: {selector}")
+        log.info(f"Getting text from selector: {selector}")
         try:
-            return self.page.locator(selector).text_content(timeout=timeout)
-        except TimeoutError as e:
-            log.error(f"Timeout getting text from {selector}: {e}")
+            value = self.page.locator(selector).text_content(timeout=timeout)
+            log.info(f"Retrieved value from {selector}: {value}")
+            return value
+
+        except Exception as e:
+            log.error(f"Error getting text from {selector}: {e}")
             self.capture_screenshot()
             return None
+
+    def upload_file_using_file_chooser(self, trigger_selector: str, file_path: str, timeout=10000):
+
+        log.info(f"Uploading file '{file_path}' using trigger: {trigger_selector}")
+        try:
+            with self.page.expect_file_chooser(timeout=timeout) as fc_info:
+                self.page.locator(trigger_selector).click()
+            file_chooser = fc_info.value
+            file_chooser.set_files(file_path)
+            return True
+        except TimeoutError as e:
+            log.error(f"Timeout while trying to upload file using {trigger_selector}: {e}")
+            self.capture_screenshot()
+            return False
+        except Exception as e:
+            log.error(f"Unexpected error during file upload: {e}")
+            self.capture_screenshot()
+            return False
+
+
 
     def hide_left_panel(page):
         try:
