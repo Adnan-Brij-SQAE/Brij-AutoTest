@@ -190,7 +190,6 @@ def step_create_new_module(context):
             helper = Envi_Helper(context.page)
             helper.wait_till_element_is_present_to_click(locators.DOCUMENT_NEW_MODULE)
             time.sleep(2)
-            helper.capture_screenshot()
             helper.insert_text_in_input_field(locators.DOCUMENT_POPUP_MODULE_NAME, "Auto Document Module", 10)
             helper.insert_text_in_input_field(locators.DOCUMENT_POPUP_CTA, "AUto CTA Text", 10)
             try:

@@ -1,2 +1,1 @@
-behave
-
+python run_gui.py
