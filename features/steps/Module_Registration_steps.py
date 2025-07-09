@@ -378,10 +378,8 @@ def step_impl(context):
     with allure.step("the user deletes an unused Registration module"):
         try:
             Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_LIST_KEBAB)
-            time.sleep(2)
             Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_DELETE_OPTION)
             time.sleep(2)
-            Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_DELETE_BUTTON)
             Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_CONFIRM_DELETE_BUTTON)
             time.sleep(2)
             Envi_Helper(context.page).capture_screenshot()
@@ -398,10 +396,12 @@ def step_impl(context):
 
 @when(u'the user duplicates an existing Registration Module')
 def step_impl(context):
+    Envi_Helper(context.page).insert_text_in_input_field(locators.REGISTRATION_SEARCH,"Auto")
+    time.sleep(4)
     Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_LIST_KEBAB)
     Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_EDIT_OPTION)
+    time.sleep(2)
     Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_DUPLICATE)
-    Envi_Helper(context.page).insert_text_in_input_field(locators.REGISTRATION_POPUP_CTA, " Duplicate Registration module ", 10)
     Envi_Helper(context.page).capture_screenshot()
     Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_SAVE)
     Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_cross)
@@ -409,7 +409,7 @@ def step_impl(context):
 
 @when(u'the user selects more than one Registration Module and deletes them')
 def step_impl(context):
-    with allure.step("the user deletes an unused Registration module"):
+    with allure.step("the user deletes more than one unused Registration module"):
         try:
             time.sleep(2)
             Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.REGISTRATION_ALL_CHECKBOX)

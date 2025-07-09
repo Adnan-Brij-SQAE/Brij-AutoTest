@@ -128,7 +128,7 @@ def step_use_search_feature(context):
         try:
             helper = Envi_Helper(context.page)
             helper.insert_text_in_input_field(locators.DOCUMENT_SEARCH, "test", 10)
-            time.sleep(2)
+            time.sleep(4)
         except Exception as e:
             log.error(f"Search feature failed: {e}")
             allure.attach(str(e), name="Search Feature Error", attachment_type=AttachmentType.TEXT)
@@ -139,6 +139,7 @@ def step_verify_search_results(context):
     with allure.step("Verify search results are displayed correctly"):
         try:
             helper = Envi_Helper(context.page)
+            helper.get_value(locators.DOCUMENT_LIST)
             log.info("the searched data is displaying correctly")
             helper.capture_screenshot()
             allure.attach("Search results are correct", name="Search Verification", attachment_type=AttachmentType.TEXT)
@@ -189,7 +190,6 @@ def step_create_new_module(context):
         try:
             helper = Envi_Helper(context.page)
             helper.wait_till_element_is_present_to_click(locators.DOCUMENT_NEW_MODULE)
-            time.sleep(2)
             helper.insert_text_in_input_field(locators.DOCUMENT_POPUP_MODULE_NAME, "Auto Document Module", 10)
             helper.insert_text_in_input_field(locators.DOCUMENT_POPUP_CTA, "AUto CTA Text", 10)
             try:

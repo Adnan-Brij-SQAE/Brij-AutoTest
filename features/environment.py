@@ -9,7 +9,7 @@ def before_all(context):
 
     # Launch browser maximized (native window)
     browser = playwright.chromium.launch(
-        headless=True,
+        headless=False,
         slow_mo=60,
         args=["--start-maximized"]
     )

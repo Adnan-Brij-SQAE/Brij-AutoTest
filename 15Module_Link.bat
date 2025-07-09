@@ -3,7 +3,7 @@ cd /d %~dp0
 
 :: Run Behave tests
 echo Running Behave tests...
-behave features\14Module_Link.feature -f allure_behave.formatter:AllureFormatter -o Report\allure_result
+behave features\15Module_Link.feature -f allure_behave.formatter:AllureFormatter -o Report\allure_result
 
 :: Generate Allure report
 echo Generating Allure report...

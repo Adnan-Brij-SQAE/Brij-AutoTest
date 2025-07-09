@@ -19,6 +19,7 @@ class Envi_Helper:
     def insert_text_in_input_field(self, selector, text: str, timeout=10000):
         """
         Fills the input field identified by a single locator or a list of locators.
+        Raises an exception if no field could be filled.
         """
         try:
             if isinstance(selector, (list, tuple)):
@@ -27,27 +28,27 @@ class Envi_Helper:
                     try:
                         element = self.page.locator(sel)
                         element.wait_for(state='visible', timeout=timeout)
+                        element.clear()
                         element.fill(text)
                         log.info(f"Filled successfully: {sel}")
-                        return True
+                        return
                     except TimeoutError:
                         log.warning(f"Timeout waiting for {sel}, trying next...")
                     except Exception as e:
                         log.warning(f"Error trying {sel}: {e}")
                 log.error(f"No input field found to fill in: {selector}")
                 self.capture_screenshot()
-                return False
+                raise Exception(f"Could not fill any input field in selector list: {selector}")
             else:
                 log.info(f"Filling {selector} with: {text}")
                 element = self.page.locator(selector)
                 element.wait_for(state='visible', timeout=timeout)
                 element.fill(text)
                 log.info(f"Filled successfully: {selector}")
-                return True
         except Exception as e:
-            log.error(f"Error filling {selector}: {e}")
+            log.error(f"Error filling {selector} with '{text}': {e}")
             self.capture_screenshot()
-            return False
+            raise Exception(f"Fill failed on selector: {selector} | Reason: {e}")
 
     def wait_till_element_is_present_to_click(self, selector, timeout=10000):
         try:
@@ -59,26 +60,24 @@ class Envi_Helper:
                         element.wait_for(state='visible', timeout=timeout)
                         element.click()
                         log.info(f"Clicked successfully: {sel}")
-                        return True
+                        return
                     except TimeoutError:
                         log.warning(f"Timeout waiting for {sel}, trying next...")
                     except Exception as e:
                         log.warning(f"Error trying {sel}: {e}")
                 log.error(f"No selectable element found in: {selector}")
                 self.capture_screenshot()
-                return False
+                raise Exception(f"Could not click any selector in list: {selector}")
             else:
                 log.info(f"Clicking: {selector}")
                 element = self.page.locator(selector)
                 element.wait_for(state='visible', timeout=timeout)
                 element.click()
                 log.info(f"Clicked successfully: {selector}")
-                return True
         except Exception as e:
             log.error(f"Error clicking {selector}: {e}")
             self.capture_screenshot()
-            return False
-
+            raise Exception(f"Click failed on selector: {selector} | Reason: {e}")
 
     def ensure_checkbox_is_checked(self, selector: str, timeout=10000):
         log.info(f"Ensuring checkbox is checked: {selector}")

@@ -1,215 +1,177 @@
-03/07/2025 07:50:48 PM: INFO: logs_file: set_active_page: Active page set for screenshot functionality
-03/07/2025 07:50:57 PM: INFO: environment: before_all: Logged in and ready to test with Playwright.
-03/07/2025 07:50:57 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: (//li[@class='has-subnav ng-star-inserted'])[3]
-03/07/2025 07:51:00 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: (//li[@class='has-subnav ng-star-inserted'])[3]
-03/07/2025 07:51:00 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //span[normalize-space()='Document']
-03/07/2025 07:51:00 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //span[normalize-space()='Document']
-03/07/2025 07:51:02 PM: INFO: enviHelper: open_page: Navigating to: https://rc.brij.it/brand/modules/documents
-03/07/2025 07:51:03 PM: INFO: enviHelper: get_value: Getting text from selector: //div[@id='mainContent']
-03/07/2025 07:51:05 PM: INFO: enviHelper: get_value: Retrieved value from //div[@id='mainContent']: Document
-
-Total Document Modules0
-  
-  
- Fields  New Document Module  Module Name  Where Used  Call to Action  File Name Engagements Rows per page: 0-0 of 0 entries20
-03/07/2025 07:51:05 PM: INFO: Module_Document_steps: step_navigate_to_document_module_page: Navigated to Document Module page
-03/07/2025 07:51:07 PM: INFO: enviHelper: get_value: Getting text from selector: //h1[normalize-space()='Document']
-03/07/2025 07:51:07 PM: INFO: enviHelper: get_value: Retrieved value from //h1[normalize-space()='Document']: Document
-03/07/2025 07:51:07 PM: INFO: Module_Document_steps: step_document_module_page_displayed: navigated to correct page Document
-03/07/2025 07:51:07 PM: INFO: Module_Document_steps: step_document_module_page_displayed: the user is on the Document Module page
-03/07/2025 07:51:07 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: .notification
-03/07/2025 07:51:08 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: .notification
-03/07/2025 07:51:08 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_195108.png
-03/07/2025 07:51:08 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: .notification
-03/07/2025 07:51:08 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: .notification
-03/07/2025 07:51:08 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //img[@alt='logout']
-03/07/2025 07:51:08 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //img[@alt='logout']
-03/07/2025 07:51:09 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_195108.png
-03/07/2025 07:51:09 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //img[@alt='logout']
-03/07/2025 07:51:09 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //img[@alt='logout']
-03/07/2025 07:51:09 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //button[normalize-space()='Fields']
-03/07/2025 07:51:09 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //button[normalize-space()='Fields']
-03/07/2025 07:51:09 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-document-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[1]/app-checkbox/div/p-checkbox/div
-03/07/2025 07:51:09 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //*[@id='mainContent']/div[2]/div/app-document-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[1]/app-checkbox/div/p-checkbox/div
-03/07/2025 07:51:10 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_195109.png
-03/07/2025 07:51:10 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-document-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[1]/app-checkbox/div/p-checkbox/div
-03/07/2025 07:51:10 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //*[@id='mainContent']/div[2]/div/app-document-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[1]/app-checkbox/div/p-checkbox/div
-03/07/2025 07:51:10 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-document-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[2]/app-checkbox/div/p-checkbox/div
-03/07/2025 07:51:11 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //*[@id='mainContent']/div[2]/div/app-document-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[2]/app-checkbox/div/p-checkbox/div
-03/07/2025 07:51:11 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_195111.png
-03/07/2025 07:51:11 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-document-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[2]/app-checkbox/div/p-checkbox/div
-03/07/2025 07:51:11 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //*[@id='mainContent']/div[2]/div/app-document-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[2]/app-checkbox/div/p-checkbox/div
-03/07/2025 07:51:11 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-document-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[1]/app-checkbox/div/p-checkbox/div
-03/07/2025 07:51:11 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //*[@id='mainContent']/div[2]/div/app-document-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[1]/app-checkbox/div/p-checkbox/div
-03/07/2025 07:51:12 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_195111.png
-03/07/2025 07:51:12 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-document-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[1]/app-checkbox/div/p-checkbox/div
-03/07/2025 07:51:12 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //*[@id='mainContent']/div[2]/div/app-document-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[1]/app-checkbox/div/p-checkbox/div
-03/07/2025 07:51:12 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-document-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[4]/app-checkbox/div/p-checkbox/div
-03/07/2025 07:51:12 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //*[@id='mainContent']/div[2]/div/app-document-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[4]/app-checkbox/div/p-checkbox/div
-03/07/2025 07:51:12 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_195112.png
-03/07/2025 07:51:12 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-document-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[4]/app-checkbox/div/p-checkbox/div
-03/07/2025 07:51:13 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //*[@id='mainContent']/div[2]/div/app-document-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[4]/app-checkbox/div/p-checkbox/div
-03/07/2025 07:51:13 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //button[normalize-space()='Fields']
-03/07/2025 07:51:13 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //button[normalize-space()='Fields']
-03/07/2025 07:51:13 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //app-checkbox[@name='tableHeaderCheckbox']
-03/07/2025 07:51:13 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //app-checkbox[@name='tableHeaderCheckbox']
-03/07/2025 07:51:13 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_195113.png
-03/07/2025 07:51:13 PM: INFO: Module_Document_steps: step_verify_all_checkboxes_selected: All unused forms are selected 
-03/07/2025 07:51:13 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //app-checkbox[@name='tableHeaderCheckbox']
-03/07/2025 07:51:13 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //app-checkbox[@name='tableHeaderCheckbox']
-03/07/2025 07:51:13 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //button[normalize-space()='New Document Module']
-03/07/2025 07:51:14 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //button[normalize-space()='New Document Module']
-03/07/2025 07:51:16 PM: INFO: enviHelper: insert_text_in_input_field: Trying to fill //input[@placeholder='Enter module name...'] with: Auto Document Module
-03/07/2025 07:51:16 PM: WARNING: enviHelper: insert_text_in_input_field: Timeout waiting for //input[@placeholder='Enter module name...'], trying next...
-03/07/2025 07:51:16 PM: INFO: enviHelper: insert_text_in_input_field: Trying to fill //*[@id='style-1']/div/div[1]/div/app-form-control/div/input with: Auto Document Module
-03/07/2025 07:51:16 PM: WARNING: enviHelper: insert_text_in_input_field: Timeout waiting for //*[@id='style-1']/div/div[1]/div/app-form-control/div/input, trying next...
-03/07/2025 07:51:16 PM: ERROR: enviHelper: insert_text_in_input_field: No input field found to fill in: ["//input[@placeholder='Enter module name...']", "//*[@id='style-1']/div/div[1]/div/app-form-control/div/input"]
-03/07/2025 07:51:16 PM: INFO: logs_file: attach_screenshot_in_report: Screenshot captured and attached: D:\Vqode\Brij-AutoTest\Screenshots\screenshot_2025-07-03_19-51-16.png
-03/07/2025 07:51:16 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_195116.png
-03/07/2025 07:51:17 PM: INFO: enviHelper: insert_text_in_input_field: Trying to fill //*[@id='style-1']/div/div[2]/app-form-control/div/input with: AUto CTA Text
-03/07/2025 07:51:17 PM: WARNING: enviHelper: insert_text_in_input_field: Timeout waiting for //*[@id='style-1']/div/div[2]/app-form-control/div/input, trying next...
-03/07/2025 07:51:17 PM: INFO: enviHelper: insert_text_in_input_field: Trying to fill //*[@id='style-1']/div/div[2]/app-form-control/div/input with: AUto CTA Text
-03/07/2025 07:51:17 PM: INFO: enviHelper: insert_text_in_input_field: Filled successfully: //*[@id='style-1']/div/div[2]/app-form-control/div/input
-03/07/2025 07:51:17 PM: INFO: enviHelper: upload_file_using_file_chooser: Uploading file 'test.pdf' using trigger: //label[normalize-space()='Click or Drag File Here']
-03/07/2025 07:51:19 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_195119.png
-03/07/2025 07:51:20 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //button[normalize-space()='Save']
-03/07/2025 07:51:50 PM: ERROR: enviHelper: wait_till_element_is_present_to_click: Error clicking //button[normalize-space()='Save']: Locator.click: Timeout 30000ms exceeded.
+09/07/2025 02:57:36 PM: INFO: logs_file: set_active_page: Active page set for screenshot functionality
+09/07/2025 02:57:44 PM: INFO: environment: before_all: Logged in and ready to test with Playwright.
+09/07/2025 02:57:44 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: (//li[@class='has-subnav ng-star-inserted'])[3]
+09/07/2025 02:57:47 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: (//li[@class='has-subnav ng-star-inserted'])[3]
+09/07/2025 02:57:47 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //span[normalize-space()='Reviews']
+09/07/2025 02:57:47 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //span[normalize-space()='Reviews']
+09/07/2025 02:57:49 PM: INFO: enviHelper: open_page: Navigating to: https://rc.brij.it/brand/modules/reviews
+09/07/2025 02:57:51 PM: INFO: enviHelper: get_value: Getting text from selector: //div[@id='mainContent']
+09/07/2025 02:57:52 PM: INFO: enviHelper: get_value: Retrieved value from //div[@id='mainContent']: ReviewTotal Review Modules0 Fields  New Review Module  Module Name  Where Used  Call to Action Engagements Rows per page: 0-0 of 0 entries20
+09/07/2025 02:57:52 PM: INFO: Module_Review_steps: step_navigate_to_Review_module_page: Navigated to Review Module page
+09/07/2025 02:57:54 PM: INFO: enviHelper: get_value: Getting text from selector: //h1[normalize-space()='Review']
+09/07/2025 02:57:54 PM: INFO: enviHelper: get_value: Retrieved value from //h1[normalize-space()='Review']: Review
+09/07/2025 02:57:54 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250709_145754.png
+09/07/2025 02:57:55 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: .notification
+09/07/2025 02:57:55 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: .notification
+09/07/2025 02:57:55 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250709_145755.png
+09/07/2025 02:57:55 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: .notification
+09/07/2025 02:57:55 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: .notification
+09/07/2025 02:57:55 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //img[@alt='logout']
+09/07/2025 02:57:55 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //img[@alt='logout']
+09/07/2025 02:57:56 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250709_145755.png
+09/07/2025 02:57:56 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //img[@alt='logout']
+09/07/2025 02:57:56 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //img[@alt='logout']
+09/07/2025 02:57:56 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //button[normalize-space()='Fields']
+09/07/2025 02:57:56 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //button[normalize-space()='Fields']
+09/07/2025 02:57:56 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250709_145756.png
+09/07/2025 02:57:56 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-form-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[1]/app-checkbox/div/p-checkbox
+09/07/2025 02:57:57 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //*[@id='mainContent']/div[2]/div/app-form-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[1]/app-checkbox/div/p-checkbox
+09/07/2025 02:57:57 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250709_145757.png
+09/07/2025 02:57:57 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-form-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[1]/app-checkbox/div/p-checkbox
+09/07/2025 02:57:57 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //*[@id='mainContent']/div[2]/div/app-form-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[1]/app-checkbox/div/p-checkbox
+09/07/2025 02:57:57 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-form-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[2]/app-checkbox/div/p-checkbox
+09/07/2025 02:57:57 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //*[@id='mainContent']/div[2]/div/app-form-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[2]/app-checkbox/div/p-checkbox
+09/07/2025 02:57:57 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250709_145757.png
+09/07/2025 02:57:58 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-form-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[2]/app-checkbox/div/p-checkbox
+09/07/2025 02:57:58 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //*[@id='mainContent']/div[2]/div/app-form-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[2]/app-checkbox/div/p-checkbox
+09/07/2025 02:57:58 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-form-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[3]/app-checkbox/div/p-checkbox
+09/07/2025 02:57:58 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //*[@id='mainContent']/div[2]/div/app-form-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[3]/app-checkbox/div/p-checkbox
+09/07/2025 02:57:58 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250709_145758.png
+09/07/2025 02:57:58 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //*[@id='mainContent']/div[2]/div/app-form-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[3]/app-checkbox/div/p-checkbox
+09/07/2025 02:57:58 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //*[@id='mainContent']/div[2]/div/app-form-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[3]/app-checkbox/div/p-checkbox
+09/07/2025 02:57:58 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //button[normalize-space()='Fields']
+09/07/2025 02:57:58 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //button[normalize-space()='Fields']
+09/07/2025 02:57:58 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Trying to click: //app-checkbox[@name='tableHeaderCheckbox']
+09/07/2025 02:57:59 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //app-checkbox[@name='tableHeaderCheckbox']
+09/07/2025 02:57:59 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250709_145759.png
+09/07/2025 02:57:59 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Trying to click: //app-checkbox[@name='tableHeaderCheckbox']
+09/07/2025 02:57:59 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //app-checkbox[@name='tableHeaderCheckbox']
+09/07/2025 02:57:59 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250709_145759.png
+09/07/2025 02:57:59 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //th[@id='moduleName']
+09/07/2025 02:58:00 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //th[@id='moduleName']
+09/07/2025 02:58:00 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250709_145800.png
+09/07/2025 02:58:00 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //th[@id='moduleName']
+09/07/2025 02:58:00 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //th[@id='moduleName']
+09/07/2025 02:58:00 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //th[@id='whereUsed']
+09/07/2025 02:58:00 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //th[@id='whereUsed']
+09/07/2025 02:58:00 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250709_145800.png
+09/07/2025 02:58:01 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //th[@id='whereUsed']
+09/07/2025 02:58:01 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //th[@id='whereUsed']
+09/07/2025 02:58:01 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //th[@id='callToAction']
+09/07/2025 02:58:01 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //th[@id='callToAction']
+09/07/2025 02:58:01 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250709_145801.png
+09/07/2025 02:58:01 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //th[@id='callToAction']
+09/07/2025 02:58:01 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //th[@id='callToAction']
+09/07/2025 02:58:01 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250709_145801.png
+09/07/2025 02:58:02 PM: INFO: Module_Review_steps: step_impl: the rows are updated successfully
+09/07/2025 02:58:02 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //button[normalize-space()='New Review Module']
+09/07/2025 02:58:02 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //button[normalize-space()='New Review Module']
+09/07/2025 02:58:04 PM: INFO: enviHelper: insert_text_in_input_field: Trying to fill //input[@placeholder='Enter module name...'] with: Auto Review Test
+09/07/2025 02:58:05 PM: WARNING: enviHelper: insert_text_in_input_field: Timeout waiting for //input[@placeholder='Enter module name...'], trying next...
+09/07/2025 02:58:05 PM: INFO: enviHelper: insert_text_in_input_field: Trying to fill //*[@id='style-1']/div/div[1]/div/app-form-control/div/input with: Auto Review Test
+09/07/2025 02:58:05 PM: WARNING: enviHelper: insert_text_in_input_field: Timeout waiting for //*[@id='style-1']/div/div[1]/div/app-form-control/div/input, trying next...
+09/07/2025 02:58:05 PM: ERROR: enviHelper: insert_text_in_input_field: No input field found to fill in: ["//input[@placeholder='Enter module name...']", "//*[@id='style-1']/div/div[1]/div/app-form-control/div/input"]
+09/07/2025 02:58:05 PM: INFO: logs_file: attach_screenshot_in_report: Screenshot captured and attached: D:\Vqode\Brij-AutoTest\Screenshots\screenshot_2025-07-09_14-58-05.png
+09/07/2025 02:58:05 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250709_145805.png
+09/07/2025 02:58:06 PM: ERROR: enviHelper: insert_text_in_input_field: Error filling ["//input[@placeholder='Enter module name...']", "//*[@id='style-1']/div/div[1]/div/app-form-control/div/input"] with 'Auto Review Test': Could not fill any input field in selector list: ["//input[@placeholder='Enter module name...']", "//*[@id='style-1']/div/div[1]/div/app-form-control/div/input"]
+09/07/2025 02:58:06 PM: INFO: logs_file: attach_screenshot_in_report: Screenshot captured and attached: D:\Vqode\Brij-AutoTest\Screenshots\screenshot_2025-07-09_14-58-06.png
+09/07/2025 02:58:06 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250709_145806.png
+09/07/2025 02:58:07 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Trying to click: p-button[type='button']
+09/07/2025 02:58:17 PM: WARNING: enviHelper: wait_till_element_is_present_to_click: Timeout waiting for p-button[type='button'], trying next...
+09/07/2025 02:58:17 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Trying to click: //button[normalize-space()='Save']
+09/07/2025 02:58:18 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //button[normalize-space()='Save']
+09/07/2025 02:58:20 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //span[@class='p-dialog-header-close-icon pi pi-times']
+09/07/2025 02:58:20 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //span[@class='p-dialog-header-close-icon pi pi-times']
+09/07/2025 02:58:21 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250709_145820.png
+09/07/2025 02:58:21 PM: INFO: Module_Review_steps: step_impl: the rows are updated successfully
+09/07/2025 02:58:21 PM: ERROR: Module_Review_steps: step_create_new_module: Test Cases Pending
+09/07/2025 02:58:21 PM: INFO: logs_file: attach_screenshot_in_report: Screenshot captured and attached: D:\Vqode\Brij-AutoTest\Screenshots\screenshot_2025-07-09_14-58-21.png
+09/07/2025 02:58:21 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250709_145821.png
+09/07/2025 02:58:21 PM: INFO: Module_Review_steps: step_impl: the rows are updated successfully
+09/07/2025 02:58:21 PM: INFO: enviHelper: insert_text_in_input_field: Filling //input[@placeholder='Search Items...'] with: Auto
+09/07/2025 02:58:22 PM: INFO: enviHelper: insert_text_in_input_field: Filled successfully: //input[@placeholder='Search Items...']
+09/07/2025 02:58:26 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //body[1]/app-root[1]/app-brand-main[1]/div[1]/div[1]/div[2]/div[2]/div[1]/app-form-listing[1]/p-table[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[7]/app-row-options[1]/div[1]
+09/07/2025 02:58:26 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //body[1]/app-root[1]/app-brand-main[1]/div[1]/div[1]/div[2]/div[2]/div[1]/app-form-listing[1]/p-table[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[7]/app-row-options[1]/div[1]
+09/07/2025 02:58:26 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //div[contains(text(),'Edit Review Module')]
+09/07/2025 02:58:26 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //div[contains(text(),'Edit Review Module')]
+09/07/2025 02:58:28 PM: INFO: enviHelper: get_value: Getting text from selector: //span[@class='p-dialog-title align']
+09/07/2025 02:58:28 PM: ERROR: enviHelper: get_value: Error getting text from //span[@class='p-dialog-title align']: Locator.text_content: Timeout 10ms exceeded.
 Call log:
-  - waiting for locator("//button[normalize-space()='Save']")
-    - locator resolved to <button disabled pc132="" pbutton="" type="button" _ngcontent-ng-c148365362="" class="primary small undefined p-button p-component">…</button>
-  - attempting click action
-    2 × waiting for element to be visible, enabled and stable
-      - element is not enabled
-    - retrying click action
-    - waiting 20ms
-    2 × waiting for element to be visible, enabled and stable
-      - element is not enabled
-    - retrying click action
-      - waiting 100ms
-    54 × waiting for element to be visible, enabled and stable
-       - element is not enabled
-     - retrying click action
-       - waiting 500ms
+  - waiting for locator("//span[@class='p-dialog-title align']")
 
-03/07/2025 07:51:50 PM: INFO: logs_file: attach_screenshot_in_report: Screenshot captured and attached: D:\Vqode\Brij-AutoTest\Screenshots\screenshot_2025-07-03_19-51-50.png
-03/07/2025 07:51:50 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_195150.png
-03/07/2025 07:51:51 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //span[@class='p-dialog-header-close-icon pi pi-times']
-03/07/2025 07:51:51 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //span[@class='p-dialog-header-close-icon pi pi-times']
-03/07/2025 07:51:53 PM: INFO: enviHelper: get_value: Getting text from selector: //tbody/tr[1]
-03/07/2025 07:51:53 PM: INFO: enviHelper: get_value: Retrieved value from //tbody/tr[1]: testw-test testfile.pdf -
-03/07/2025 07:51:53 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: (//img)[11]
-03/07/2025 07:51:53 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: (//img)[11]
-03/07/2025 07:51:53 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //div[contains(text(),'Edit Document Module')]
-03/07/2025 07:51:53 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //div[contains(text(),'Edit Document Module')]
-03/07/2025 07:51:53 PM: INFO: enviHelper: get_value: Getting text from selector: //span[@class='p-dialog-title align']
-03/07/2025 07:51:53 PM: INFO: enviHelper: get_value: Retrieved value from //span[@class='p-dialog-title align']: 
-
- Edit Document Module 
-03/07/2025 07:51:53 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //img[@alt='Copy Module']
-03/07/2025 07:51:54 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //img[@alt='Copy Module']
-03/07/2025 07:51:54 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_195154.png
-03/07/2025 07:51:54 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //button[normalize-space()='Save']
-03/07/2025 07:51:54 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //button[normalize-space()='Save']
-03/07/2025 07:51:54 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //span[@class='p-dialog-header-close-icon pi pi-times']
-03/07/2025 07:51:55 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //span[@class='p-dialog-header-close-icon pi pi-times']
-03/07/2025 07:51:57 PM: INFO: enviHelper: get_value: Getting text from selector: //tbody/tr[1]
-03/07/2025 07:51:57 PM: INFO: enviHelper: get_value: Retrieved value from //tbody/tr[1]: Copy of testw-test testfile.pdf -
-03/07/2025 07:51:57 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: (//img)[11]
-03/07/2025 07:51:57 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: (//img)[11]
-03/07/2025 07:51:57 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //div[contains(text(),'Edit Document Module')]
-03/07/2025 07:51:57 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //div[contains(text(),'Edit Document Module')]
-03/07/2025 07:51:57 PM: INFO: enviHelper: get_value: Getting text from selector: //span[@class='p-dialog-title align']
-03/07/2025 07:51:58 PM: INFO: enviHelper: get_value: Retrieved value from //span[@class='p-dialog-title align']: 
-
- Edit Document Module 
-03/07/2025 07:51:58 PM: INFO: enviHelper: insert_text_in_input_field: Trying to fill //input[@placeholder='Enter module name...'] with: Auto Updated name
-03/07/2025 07:51:58 PM: INFO: enviHelper: insert_text_in_input_field: Filled successfully: //input[@placeholder='Enter module name...']
-03/07/2025 07:51:58 PM: INFO: enviHelper: insert_text_in_input_field: Trying to fill //*[@id='style-1']/div/div[2]/app-form-control/div/input with: UpdatedText
-03/07/2025 07:51:58 PM: INFO: enviHelper: insert_text_in_input_field: Filled successfully: //*[@id='style-1']/div/div[2]/app-form-control/div/input
-03/07/2025 07:51:58 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_195158.png
-03/07/2025 07:51:58 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //button[normalize-space()='Save']
-03/07/2025 07:51:58 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //button[normalize-space()='Save']
-03/07/2025 07:51:58 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //span[@class='p-dialog-header-close-icon pi pi-times']
-03/07/2025 07:52:00 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //span[@class='p-dialog-header-close-icon pi pi-times']
-03/07/2025 07:52:02 PM: INFO: enviHelper: get_value: Getting text from selector: //tbody/tr[1]
-03/07/2025 07:52:02 PM: INFO: enviHelper: get_value: Retrieved value from //tbody/tr[1]: Auto Updated name-UpdatedText testfile.pdf -
-03/07/2025 07:52:02 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //th[@id='moduleName']
-03/07/2025 07:52:02 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //th[@id='moduleName']
-03/07/2025 07:52:02 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_195202.png
-03/07/2025 07:52:03 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //th[@id='moduleName']
-03/07/2025 07:52:04 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //th[@id='moduleName']
-03/07/2025 07:52:04 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //th[@id='whereUsed']
-03/07/2025 07:52:04 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //th[@id='whereUsed']
-03/07/2025 07:52:04 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_195204.png
-03/07/2025 07:52:05 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //th[@id='whereUsed']
-03/07/2025 07:52:05 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //th[@id='whereUsed']
-03/07/2025 07:52:05 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //th[@id='callToAction']
-03/07/2025 07:52:05 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //th[@id='callToAction']
-03/07/2025 07:52:05 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_195205.png
-03/07/2025 07:52:05 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //th[@id='callToAction']
-03/07/2025 07:52:06 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //th[@id='callToAction']
-03/07/2025 07:52:06 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //th[@id='fileName']
-03/07/2025 07:52:06 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //th[@id='fileName']
-03/07/2025 07:52:06 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_195206.png
-03/07/2025 07:52:06 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //th[@id='fileName']
-03/07/2025 07:52:07 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //th[@id='fileName']
-03/07/2025 07:52:07 PM: INFO: Module_Document_steps: step_verify_table_sorted: the table data is sorted successfully 
-03/07/2025 07:52:07 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //div[@aria-label='dropdown trigger']
-03/07/2025 07:52:07 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //div[@aria-label='dropdown trigger']
-03/07/2025 07:52:07 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //span[normalize-space()='100']
-03/07/2025 07:52:07 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //span[normalize-space()='100']
-03/07/2025 07:52:07 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_195207.png
-03/07/2025 07:52:09 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //div[@aria-label='dropdown trigger']
-03/07/2025 07:52:11 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //div[@aria-label='dropdown trigger']
-03/07/2025 07:52:11 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //span[@class='ng-star-inserted'][normalize-space()='20']
-03/07/2025 07:52:11 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //span[@class='ng-star-inserted'][normalize-space()='20']
-03/07/2025 07:52:12 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_195211.png
-03/07/2025 07:52:14 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //div[@aria-label='dropdown trigger']
-03/07/2025 07:52:14 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //div[@aria-label='dropdown trigger']
-03/07/2025 07:52:14 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_195214.png
-03/07/2025 07:52:14 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //span[normalize-space()='1000']
-03/07/2025 07:52:15 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //span[normalize-space()='1000']
-03/07/2025 07:52:17 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_195217.png
-03/07/2025 07:52:17 PM: INFO: Module_Document_steps: step_impl: the unused modules are deleted successfully
-03/07/2025 07:52:17 PM: INFO: enviHelper: get_value: Getting text from selector: //tbody/tr[1]
-03/07/2025 07:52:17 PM: INFO: enviHelper: get_value: Retrieved value from //tbody/tr[1]: test WebApp Experience test  Testfile.pdf 1
-03/07/2025 07:52:17 PM: INFO: enviHelper: insert_text_in_input_field: Filling //input[@placeholder='Search Items...'] with: Auto
-03/07/2025 07:52:17 PM: INFO: enviHelper: insert_text_in_input_field: Filled successfully: //input[@placeholder='Search Items...']
-03/07/2025 07:52:19 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: (//img)[11]
-03/07/2025 07:52:24 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: (//img)[11]
-03/07/2025 07:52:24 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //div[contains(text(),'Delete Document Module')]
-03/07/2025 07:52:25 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //div[contains(text(),'Delete Document Module')]
-03/07/2025 07:52:27 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //span[normalize-space()='Delete']
-03/07/2025 07:52:27 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //span[normalize-space()='Delete']
-03/07/2025 07:52:27 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_195227.png
-03/07/2025 07:52:29 PM: INFO: enviHelper: insert_text_in_input_field: Filling //input[@placeholder='Search Items...'] with: Auto
-03/07/2025 07:52:29 PM: INFO: enviHelper: insert_text_in_input_field: Filled successfully: //input[@placeholder='Search Items...']
-03/07/2025 07:52:31 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //app-checkbox[@name='tableHeaderCheckbox']
-03/07/2025 07:52:31 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //app-checkbox[@name='tableHeaderCheckbox']
-03/07/2025 07:52:31 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //button[normalize-space()='Delete']
-03/07/2025 07:52:41 PM: ERROR: enviHelper: wait_till_element_is_present_to_click: Error clicking //button[normalize-space()='Delete']: Locator.wait_for: Timeout 10000ms exceeded.
-Call log:
-  - waiting for locator("//button[normalize-space()='Delete']") to be visible
-
-03/07/2025 07:52:42 PM: INFO: logs_file: attach_screenshot_in_report: Screenshot captured and attached: D:\Vqode\Brij-AutoTest\Screenshots\screenshot_2025-07-03_19-52-41.png
-03/07/2025 07:52:42 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_195242.png
-03/07/2025 07:52:44 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //span[normalize-space()='Delete']
-03/07/2025 07:52:54 PM: ERROR: enviHelper: wait_till_element_is_present_to_click: Error clicking //span[normalize-space()='Delete']: Locator.wait_for: Timeout 10000ms exceeded.
-Call log:
-  - waiting for locator("//span[normalize-space()='Delete']") to be visible
-
-03/07/2025 07:52:54 PM: INFO: logs_file: attach_screenshot_in_report: Screenshot captured and attached: D:\Vqode\Brij-AutoTest\Screenshots\screenshot_2025-07-03_19-52-54.png
-03/07/2025 07:52:54 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_195254.png
-03/07/2025 07:52:54 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_195254.png
-03/07/2025 07:52:55 PM: INFO: Module_Document_steps: step_verify_module_deleted: the unused more than one modules are deleted successfully
-03/07/2025 07:52:55 PM: INFO: enviHelper: insert_text_in_input_field: Filling //input[@placeholder='Search Items...'] with: test
-03/07/2025 07:52:55 PM: ERROR: enviHelper: insert_text_in_input_field: Error filling //input[@placeholder='Search Items...']: Locator.wait_for: Timeout 10ms exceeded.
-Call log:
-  - waiting for locator("//input[@placeholder='Search Items...']") to be visible
-    - locator resolved to visible <input type="text" class="input" _ngcontent-ng-c3986383866="" placeholder="Search Items..."/>
-
-03/07/2025 07:52:55 PM: INFO: logs_file: attach_screenshot_in_report: Screenshot captured and attached: D:\Vqode\Brij-AutoTest\Screenshots\screenshot_2025-07-03_19-52-55.png
-03/07/2025 07:52:55 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_195255.png
-03/07/2025 07:52:57 PM: INFO: Module_Document_steps: step_verify_search_results: the searched data is displaying correctly
-03/07/2025 07:52:57 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250703_195257.png
-03/07/2025 07:52:58 PM: INFO: environment: after_all: Browser closed, Playwright stopped.
+09/07/2025 02:58:28 PM: INFO: logs_file: attach_screenshot_in_report: Screenshot captured and attached: D:\Vqode\Brij-AutoTest\Screenshots\screenshot_2025-07-09_14-58-28.png
+09/07/2025 02:58:29 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250709_145828.png
+09/07/2025 02:58:30 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //img[@alt='Copy Module']
+09/07/2025 02:58:30 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //img[@alt='Copy Module']
+09/07/2025 02:58:30 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250709_145830.png
+09/07/2025 02:58:31 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Trying to click: p-button[type='button']
+09/07/2025 02:58:41 PM: WARNING: enviHelper: wait_till_element_is_present_to_click: Timeout waiting for p-button[type='button'], trying next...
+09/07/2025 02:58:41 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Trying to click: //button[normalize-space()='Save']
+09/07/2025 02:58:41 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //button[normalize-space()='Save']
+09/07/2025 02:58:41 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250709_145841.png
+09/07/2025 02:58:43 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //span[@class='p-dialog-header-close-icon pi pi-times']
+09/07/2025 02:58:44 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //span[@class='p-dialog-header-close-icon pi pi-times']
+09/07/2025 02:58:44 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250709_145844.png
+09/07/2025 02:58:44 PM: INFO: Module_Review_steps: step_impl: the rows are updated successfully
+09/07/2025 02:58:44 PM: INFO: enviHelper: insert_text_in_input_field: Filling //input[@placeholder='Search Items...'] with: Auto
+09/07/2025 02:58:44 PM: INFO: enviHelper: insert_text_in_input_field: Filled successfully: //input[@placeholder='Search Items...']
+09/07/2025 02:58:48 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //body[1]/app-root[1]/app-brand-main[1]/div[1]/div[1]/div[2]/div[2]/div[1]/app-form-listing[1]/p-table[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[7]/app-row-options[1]/div[1]
+09/07/2025 02:58:48 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //body[1]/app-root[1]/app-brand-main[1]/div[1]/div[1]/div[2]/div[2]/div[1]/app-form-listing[1]/p-table[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[7]/app-row-options[1]/div[1]
+09/07/2025 02:58:48 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //div[contains(text(),'Edit Review Module')]
+09/07/2025 02:58:49 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //div[contains(text(),'Edit Review Module')]
+09/07/2025 02:58:51 PM: INFO: enviHelper: insert_text_in_input_field: Trying to fill //input[@placeholder='Enter module name...'] with: updated Auto Review Test
+09/07/2025 02:58:51 PM: WARNING: enviHelper: insert_text_in_input_field: Timeout waiting for //input[@placeholder='Enter module name...'], trying next...
+09/07/2025 02:58:51 PM: INFO: enviHelper: insert_text_in_input_field: Trying to fill //*[@id='style-1']/div/div[1]/div/app-form-control/div/input with: updated Auto Review Test
+09/07/2025 02:58:51 PM: WARNING: enviHelper: insert_text_in_input_field: Timeout waiting for //*[@id='style-1']/div/div[1]/div/app-form-control/div/input, trying next...
+09/07/2025 02:58:51 PM: ERROR: enviHelper: insert_text_in_input_field: No input field found to fill in: ["//input[@placeholder='Enter module name...']", "//*[@id='style-1']/div/div[1]/div/app-form-control/div/input"]
+09/07/2025 02:58:52 PM: INFO: logs_file: attach_screenshot_in_report: Screenshot captured and attached: D:\Vqode\Brij-AutoTest\Screenshots\screenshot_2025-07-09_14-58-51.png
+09/07/2025 02:58:53 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250709_145852.png
+09/07/2025 02:58:53 PM: ERROR: enviHelper: insert_text_in_input_field: Error filling ["//input[@placeholder='Enter module name...']", "//*[@id='style-1']/div/div[1]/div/app-form-control/div/input"] with 'updated Auto Review Test': Could not fill any input field in selector list: ["//input[@placeholder='Enter module name...']", "//*[@id='style-1']/div/div[1]/div/app-form-control/div/input"]
+09/07/2025 02:58:53 PM: INFO: logs_file: attach_screenshot_in_report: Screenshot captured and attached: D:\Vqode\Brij-AutoTest\Screenshots\screenshot_2025-07-09_14-58-53.png
+09/07/2025 02:58:54 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250709_145853.png
+09/07/2025 02:58:54 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250709_145854.png
+09/07/2025 02:58:54 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Trying to click: p-button[type='button']
+09/07/2025 02:59:04 PM: WARNING: enviHelper: wait_till_element_is_present_to_click: Timeout waiting for p-button[type='button'], trying next...
+09/07/2025 02:59:04 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Trying to click: //button[normalize-space()='Save']
+09/07/2025 02:59:05 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //button[normalize-space()='Save']
+09/07/2025 02:59:08 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //span[@class='p-dialog-header-close-icon pi pi-times']
+09/07/2025 02:59:08 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //span[@class='p-dialog-header-close-icon pi pi-times']
+09/07/2025 02:59:08 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250709_145908.png
+09/07/2025 02:59:08 PM: INFO: Module_Review_steps: step_impl: the rows are updated successfully
+09/07/2025 02:59:09 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //span[@aria-label='Rows per page']
+09/07/2025 02:59:09 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //span[@aria-label='Rows per page']
+09/07/2025 02:59:09 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //span[@class='ng-star-inserted'][normalize-space()='20']
+09/07/2025 02:59:09 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //span[@class='ng-star-inserted'][normalize-space()='20']
+09/07/2025 02:59:09 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250709_145909.png
+09/07/2025 02:59:09 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //span[@aria-label='Rows per page']
+09/07/2025 02:59:09 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //span[@aria-label='Rows per page']
+09/07/2025 02:59:09 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //span[normalize-space()='100']
+09/07/2025 02:59:10 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //span[normalize-space()='100']
+09/07/2025 02:59:10 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250709_145910.png
+09/07/2025 02:59:10 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //span[@aria-label='Rows per page']
+09/07/2025 02:59:10 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //span[@aria-label='Rows per page']
+09/07/2025 02:59:10 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //span[normalize-space()='1000']
+09/07/2025 02:59:10 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //span[normalize-space()='1000']
+09/07/2025 02:59:10 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250709_145910.png
+09/07/2025 02:59:10 PM: INFO: enviHelper: get_value: Getting text from selector: //tbody/tr[1]
+09/07/2025 02:59:10 PM: INFO: enviHelper: get_value: Retrieved value from //tbody/tr[1]: Auto Updated Review -Auto Updated CTA-
+09/07/2025 02:59:10 PM: INFO: enviHelper: insert_text_in_input_field: Filling //input[@placeholder='Search Items...'] with: Auto
+09/07/2025 02:59:11 PM: INFO: enviHelper: insert_text_in_input_field: Filled successfully: //input[@placeholder='Search Items...']
+09/07/2025 02:59:15 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //body[1]/app-root[1]/app-brand-main[1]/div[1]/div[1]/div[2]/div[2]/div[1]/app-form-listing[1]/p-table[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[7]/app-row-options[1]/div[1]
+09/07/2025 02:59:15 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //body[1]/app-root[1]/app-brand-main[1]/div[1]/div[1]/div[2]/div[2]/div[1]/app-form-listing[1]/p-table[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[7]/app-row-options[1]/div[1]
+09/07/2025 02:59:15 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Trying to click: //div[contains(text(),'Delete Review Module')]
+09/07/2025 02:59:15 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //div[contains(text(),'Delete Review Module')]
+09/07/2025 02:59:15 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //span[normalize-space()='Delete']
+09/07/2025 02:59:15 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //span[normalize-space()='Delete']
+09/07/2025 02:59:15 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250709_145915.png
+09/07/2025 02:59:16 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250709_145915.png
+09/07/2025 02:59:16 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Trying to click: //app-checkbox[@name='tableHeaderCheckbox']
+09/07/2025 02:59:16 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //app-checkbox[@name='tableHeaderCheckbox']
+09/07/2025 02:59:16 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicking: //button[normalize-space()='Delete']
+09/07/2025 02:59:16 PM: INFO: enviHelper: wait_till_element_is_present_to_click: Clicked successfully: //button[normalize-space()='Delete']
+09/07/2025 02:59:18 PM: INFO: Module_Review_steps: step_verify_module_deleted: the unused modules are deleted successfully
+09/07/2025 02:59:18 PM: INFO: enviHelper: insert_text_in_input_field: Filling //input[@placeholder='Search Items...'] with: test
+09/07/2025 02:59:18 PM: INFO: enviHelper: insert_text_in_input_field: Filled successfully: //input[@placeholder='Search Items...']
+09/07/2025 02:59:23 PM: INFO: Module_Review_steps: step_verify_search_results: the searched data is displaying correctly
+09/07/2025 02:59:24 PM: INFO: enviHelper: capture_screenshot: Screenshot saved: screenshots/screenshot_20250709_145923.png
+09/07/2025 02:59:29 PM: INFO: environment: after_all: Browser closed, Playwright stopped.

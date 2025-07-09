@@ -428,7 +428,7 @@ DOCUMENT_SEARCH = "//input[@placeholder='Search Items...']"
 DOCUMENT_NEW_MODULE = "//button[normalize-space()='New Document Module']"
 DOCUMENT_DIALOG = "//div[@role='dialog']"
 DOCUMENT_POPUP_MODULE_NAME= ["//input[@placeholder='Enter module name...']", "//*[@id='style-1']/div/div[1]/div/app-form-control/div/input" ]
-DOCUMENT_POPUP_CTA = ["//*[@id='style-1']/div/div[2]/app-form-control/div/input","//*[@id='style-1']/div/div[2]/app-form-control/div/input"]
+DOCUMENT_POPUP_CTA = ["//input[@placeholder='Enter call to action...']","//*[@id='style-1']/div/div[2]/app-form-control/div/input"]
 DOCUMENT_POPUP_UPLOAD = "//label[normalize-space()='Click or Drag File Here']"
 DOCUMENT_POPUP_ASETTING = ".p-element.advanced-setting-icon.ng-tns-c202-12"
 DOCUMENT_POPUP_SAVE_BUTTON = "//button[normalize-space()='Save']"
@@ -465,32 +465,37 @@ FORM_TITLE = "//h1[normalize-space()='Form & Survey']"
 FORM_SEARCH = "//input[@placeholder='Search Items...']"
 FORM_NEW_MODULE = "//button[normalize-space()='New Form & Survey Module']"
 FORM_DIALOG = "//div[@role='dialog']"
-FORM_POPUP_MODULE_NAME= "//input[@placeholder='Enter module name...']"
-FORM_POPUP_CTA = "//input[@placeholder='Enter call to action...']"
-FORM_POPUP_EDITOR = "//app-editor[@formcontrolname='startScreenContent']//div[@class='fr-wrapper']"
-FORM_SELECT_ALL = "//input[@id='tableHeaderCheckbox']"
+FORM_POPUP_CTA = [
+    "//input[@placeholder='Enter call to action...']",
+    "//*[@id='style-1']/div/div[2]/app-form-control/div/input",
+    "/html/body/p-dynamicdialog/div/div/div[2]/app-module-edit-popup/app-form-edit/form/div/div[1]/div[2]/div/div[2]/app-form-control/div/input"
+]
+
+FORM_POPUP_EDITOR = ["//div[@class='fr-element fr-view default-styles-2']//p","(//p)[4]" , "//*[@id='style-1']/div/div[5]/app-form-control/div/app-editor[2]/div/div[2]/div/p"]
+FORM_SELECT_ALL = ["//*[@id='selectAllCol']/app-checkbox","//*[@id='selectAllCol']/app-checkbox/div/p-checkbox", "//p-checkbox[@class='ng-pristine ng-valid ng-touched']" , "/html/body/app-root/app-brand-main/div/div/div[2]/div[2]/div/app-form-listing/p-table/div/div/table/thead/tr/th[1]/app-checkbox/div/p-checkbox/div/input"]
 FORM_POPUP_ASETTING = "//img[@alt='advance settings icon']"
+FORM_POPUP_MODULE_NAME= ["//input[@placeholder='Enter module name...']", "//*[@id='style-1']/div/div[1]/div/app-form-control/div/input" , "/html/body/p-dynamicdialog/div/div/div[2]/app-module-edit-popup/app-form-edit/form/div/div[1]/div[2]/div/div[1]/div[1]/app-form-control/div/input"]
 FORM_POPUP_ASETTING_lIMIT = "//label[normalize-space()='Limit One Submission Per Customer']"
 FORM_POPUP_ASETTING_CCM = "//label[normalize-space()='Customize Confirmation Message']"
 FORM_POPUP_ASETTING_CCM_TEXT = "//textarea[@placeholder='Enter confirmation message...']"
 FORM_POPUP_ASETTING_CC = "//label[normalize-space()='Customize Button Colors']"
 FORM_POPUP_ASETTING_BACK = "//label[normalize-space()='Advanced Settings']"
 FORM_POPUP_SAVE_BUTTON = "//button[normalize-space()='Save']"
-FORM_LIST = "//td[contains(text(),'Auto')]"
+FORM_LIST = "//tbody/tr[1]"
 FORM_ADD_EDIT_MODULE = "//span[@class='p-dialog-title align']"
 FORM_MODULE_HEADING ="//th[@id='moduleName']"
-FORM_TEXTFIELD_BUTTON = "//button[normalize-space()='Text Field']"
-FORM_TEXTFIELD_TITLE = "//input[@id='text0']"
+FORM_TEXTFIELD_BUTTON = ["//button[normalize-space()='Text Field']", "//*[@id='style-1']/div/div[7]/div[2]/button[1]"]
+FORM_TEXTFIELD_TITLE = ["//input[@id='text0']" , "/html/body/p-dynamicdialog/div/div/div[2]/app-module-edit-popup/app-form-edit/form/div/div[1]/div[2]/div/div[6]/div/div[1]/div[2]/div/div[3]/input"]
 FORM_TEXTFIELD_SUBTEXT = "//input[@placeholder='Enter subtext']"
-FORM_DROPDOWN = "//button[normalize-space()='Dropdown']"
-FORM_DROPDOWN_TITLE = "//input[@id='drop-down1']"
-FORM_DROPDOWN_SUBTEXT = "//input[@placeholder='Enter subtext']"
-FORM_DROPDOWN_CHOICE_1 = "//input[@id='drop-down10']"
-FORM_DROPDOWN_CHOICE_2 = "//input[@id='drop-down11']"
-FORM_DROPDOWN_ADDCHOICE = "//button[normalize-space()='Add Choice']"
-FORM_MULTICHOICE = "//button[normalize-space()='Multiple Choice']"
-FORM_MULTICHOICE_TITLE = "//input[@id='multiple-choice2']"
-FORM_MULTICHOICE_SUBTEXT = "//input[@placeholder='Enter subtext']"
+FORM_DROPDOWN = ["//button[normalize-space()='Dropdown']","//*[@id='style-1']/div/div[7]/div[2]/button[2]"]
+FORM_DROPDOWN_TITLE = ["//input[@id='drop-down1']", "//*[@id='drop-down1']"]
+FORM_DROPDOWN_SUBTEXT = ["//input[@placeholder='Enter subtext']" , "//*[@id='cdk-drop-list-1']/div[2]/div[1]/div[2]/div[3]/div/input"]
+FORM_DROPDOWN_CHOICE_1 = ["//input[@id='drop-down10']" ,"//*[@id='drop-down10']"]
+FORM_DROPDOWN_CHOICE_2 = ["//input[@id='drop-down11']" ,"//*[@id='drop-down11']"]
+FORM_DROPDOWN_ADDCHOICE = ["//button[normalize-space()='Add Choice']" , "//img[@alt='Choice icon']"]
+FORM_MULTICHOICE = ["//button[normalize-space()='Multiple Choice']" ,"//*[@id='style-1']/div/div[7]/div[2]/button[3]"]
+FORM_MULTICHOICE_TITLE = ["//input[@id='multiple-choice2']", "//*[@id='multiple-choice2']"]
+FORM_MULTICHOICE_SUBTEXT = ["//input[@placeholder='Enter subtext']" , "//*[@id='cdk-drop-list-2']/div[3]/div/div[2]/div[3]/div/input"]
 FORM_MULTICHOICE_CHOICE_1 = "//input[@id='multiple-choice20']"
 FORM_MULTICHOICE_CHOICE_2 = "//input[@id='multiple-choice21']"
 FORM_MULTICHOICE_ADDCHOICE = "//img[@alt='Add option icon']"
@@ -504,12 +509,16 @@ FORM_UPLOAD_FILE_SUB_TEXT = "//input[@placeholder='Enter subtext']"
 FORM_CALL_TO_ACTION = "//th[@id='callToAction']"
 FORM_COUNT = "xpath","//h6[normalize-space()='Total Form & Survey Modules']"
 FORM_CHECKBOX_LIST = "//p-checkbox[@class='ng-pristine ng-valid ng-touched']//div[@class='p-checkbox p-component']"
+FORM_LIST_DELETE = ["//div[contains(text(),'Delete & Survey Module')]", "/html/body/div[4]/div/div[3]/div"]
 FORM_DELETE_BUTTON = "//button[normalize-space()='Delete']"
 FORM_CONFIRM_DELETE_BUTTON = "//span[normalize-space()='Delete']"
+FORM_DUPLICATE = "//img[@alt='Copy Module']"
 FORM_CONFIRM_DELETE_toast = "//div[@class='ng-tns-c3499315822-19 p-toast-message-text ng-star-inserted']"
 FORM_POPUP_CLOSE = "//span[@class='p-dialog-header-close-icon pi pi-times']"
-
-FORM_ROWPERPAGE_OPTION = "//"
+FORM_FIELD_MODULE_NAME = "//*[@id='mainContent']/div[2]/div/app-form-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[1]/app-checkbox/div/p-checkbox"
+FORM_FIELD_WHERE_USED = "//*[@id='mainContent']/div[2]/div/app-form-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[2]/app-checkbox/div/p-checkbox"
+FORM_FIELD_CTA = "//*[@id='mainContent']/div[2]/div/app-form-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[3]/app-checkbox/div/p-checkbox"
+FORM_ROWPERPAGE_OPTION = "//span[@aria-label='Rows per page']"
 FORM_ROWPERPAGE_20 = "//span[@class='ng-star-inserted'][normalize-space()='20']"
 FORM_ROWPERPAGE_100 = "//span[normalize-space()='100']"
 FORM_ROWPERPAGE_1000 = "//span[normalize-space()='1000']"
@@ -757,7 +766,7 @@ REGISTRATION_FIRST_ROW = "//tbody/tr[1]"
 REGISTRATION_FIELD_BUTTON = "//button[normalize-space()='Fields']"
 REGISTRATION_FIELD_CONFIGURATION = "//*[@id='mainContent']/div[2]/div/app-registration-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[1]/app-checkbox/div/p-checkbox"
 REGISTRATION_FIELD_WHERE_USED = "//*[@id='mainContent']/div[2]/div/app-registration-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[2]/app-checkbox"
-REGISTRATION_ALL_CHECKBOX = "//*[@id='selectAllCol']/app-checkbox/div/p-checkbox"
+REGISTRATION_ALL_CHECKBOX = ["//*[@id='selectAllCol']/app-checkbox/div/p-checkbox","//th[@id='selectAllCol']"]
 REGISTRATION_NEW_MODULE = "//button[normalize-space()='New Registration Module']"
 REGISTRATION_POPUP_MODULE_NAME= "//input[@placeholder='Enter module name...']"
 REGISTRATION_POPUP_CTA = "//input[@placeholder='Enter call to action...']"
@@ -870,31 +879,74 @@ REGISTRATION_AS = "//img[@alt='advance settings icon']"
 REGISTRATION_AS_SHOW_OTHER = "//label[normalize-space()='Show other modules after Registration']"
 REGISTRATION_AS_MULTIPLE = "//label[normalize-space()='Enable Multiple Registrations']"
 REGISTRATION_AS_CUSTOM_CONFIRM = "//label[normalize-space()='Customize Confirmation Message']"
-REBATE_CAMPAIGN_KEBAB = "(//img[@class='menu-icon options-menu-icon'])[1]"
-REBATE_CAMPAIGN_DELETE = "//div[contains(text(),'Delete Module')]"
+REBATE_CAMPAIGN_KEBAB = "(//img[@class='menu-icon options-menu-icon'])[1]" , "(//img)[11]" , "//body[1]/app-root[1]/app-brand-main[1]/div[1]/div[1]/div[2]/div[2]/div[1]/app-form-listing[1]/p-table[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[7]/app-row-options[1]/div[1]/img[1]"
+REBATE_CAMPAIGN_DELETE = "//div[contains(text(),'Delete Review Module')]"
 REBATE_CAMPAIGN_DELETE_CONFIRM = "//span[normalize-space()='Delete']"
 REBATE_CAMPAIGN_DELETE_ALL = "//button[normalize-space()='Delete']"
 
 ### REVIEW MODULE ##
 REVIEW_OPTION = "////div[@id='adminDashboardContainer']/nav/ul/li[2]"
 REVIEW_SEARCH = "//input[@placeholder='Search Items...']"
-REVIEW_NEW_MODULE = "//span[normalize-space()='New AB 899 Module']"
+REVIEW_NEW_MODULE = "//button[normalize-space()='New Review Module']"
 REVIEW_DIALOG = "//div[@role='dialog']"
-REVIEW_POPUP_MODULE_NAME= "//input[@placeholder='Enter module name...']"
-REVIEW_POPUP_CTA = "//input[@placeholder='Enter call to action...']"
-REVIEW_POPUP_EDITOR = "//app-editor[@REVIEWcontrolname='preLookup']//br"
+REVIEW_POPUP_MODULE_NAME= ["//input[@placeholder='Enter module name...']" , "//*[@id='style-1']/div/div[1]/div/app-form-control/div/input"]
+REVIEW_POPUP_CTA = ["//input[@placeholder='Enter call to action...']" , "//*[@id='style-1']/div/div[2]/app-form-control/div/input"]
+REVIEW_POPUP_EDITOR = ["//app-editor[@REVIEWcontrolname='preLookup']//br", "//*[@id='style-1']/div/div[5]/app-form-control/div/app-editor[2]/div/div[2]/div/p"]
 REVIEW_POPUP_ASETTING = ".p-element.advanced-setting-icon.ng-tns-c202-12"
-REVIEW_POPUP_SAVE_BUTTON = "p-button[type='button']"
-REVIEW_LIST = "//td[@class='bold ng-star-inserted'][normalize-space()='release test']"
+REVIEW_POPUP_SAVE_BUTTON = ["p-button[type='button']" , "//button[normalize-space()='Save']"]
+REVIEW_LIST = "//tbody/tr[1]"
 REVIEW_ADD_EDIT_MODULE = "//span[@class='p-dialog-title align']"
 REVIEW_MODULE_HEADING ="//th[@id='moduleName']"
 REVIEW_WHERE_USED = "//th[@id='whereUsed']"
 REVIEW_CALL_TO_ACTION = "//th[@id='callToAction']"
-REVIEW_COUNT = "xpath","//h6[normalize-space()='Total AB 899 Modules']"
+REVIEW_COUNT = "xpath","//h6[normalize-space()='Total Review Modules']"
 REVIEW_CHECKBOX_LIST = "//p-checkbox[@class='ng-pristine ng-valid ng-touched']//div[@class='p-checkbox p-component']"
 REVIEW_DELETE_BUTTON = "//button[normalize-space()='Delete']"
 REVIEW_CONFIRM_DELETE_BUTTON = "//span[normalize-space()='Delete']"
 REVIEW_CONFIRM_DELETE_toast = "//div[@class='ng-tns-c3499315822-19 p-toast-message-text ng-star-inserted']"
+
+### REVIEW MODULE ##
+REVIEW_TITLE = "//h1[normalize-space()='Review']"
+REVIEW_POPUP_ASETTING_lIMIT = "//label[normalize-space()='Limit One Submission Per Customer']"
+REVIEW_POPUP_ASETTING_CCM = "//label[normalize-space()='Customize Confirmation Message']"
+REVIEW_POPUP_ASETTING_CCM_TEXT = "//textarea[@placeholder='Enter confirmation message...']"
+REVIEW_POPUP_ASETTING_CC = "//label[normalize-space()='Customize Button Colors']"
+REVIEW_POPUP_ASETTING_BACK = "//label[normalize-space()='Advanced Settings']"
+REVIEW_TEXTFIELD_BUTTON = ["//button[normalize-space()='Text Field']", "//*[@id='style-1']/div/div[7]/div[2]/button[1]"]
+REVIEW_TEXTFIELD_TITLE = ["//input[@id='text0']" , "/html/body/p-dynamicdialog/div/div/div[2]/app-module-edit-popup/app-form-edit/form/div/div[1]/div[2]/div/div[6]/div/div[1]/div[2]/div/div[3]/input"]
+REVIEW_TEXTFIELD_SUBTEXT = "//input[@placeholder='Enter subtext']"
+REVIEW_DROPDOWN = ["//button[normalize-space()='Dropdown']","//*[@id='style-1']/div/div[7]/div[2]/button[2]"]
+REVIEW_DROPDOWN_TITLE = ["//input[@id='drop-down1']", "//*[@id='drop-down1']"]
+REVIEW_DROPDOWN_SUBTEXT = ["//input[@placeholder='Enter subtext']" , "//*[@id='cdk-drop-list-1']/div[2]/div[1]/div[2]/div[3]/div/input"]
+REVIEW_DROPDOWN_CHOICE_1 = ["//input[@id='drop-down10']" ,"//*[@id='drop-down10']"]
+REVIEW_DROPDOWN_CHOICE_2 = ["//input[@id='drop-down11']" ,"//*[@id='drop-down11']"]
+REVIEW_DROPDOWN_ADDCHOICE = ["//button[normalize-space()='Add Choice']" , "//img[@alt='Choice icon']"]
+REVIEW_MULTICHOICE = ["//button[normalize-space()='Multiple Choice']" ,"//*[@id='style-1']/div/div[7]/div[2]/button[3]"]
+REVIEW_MULTICHOICE_TITLE = ["//input[@id='multiple-choice2']", "//*[@id='multiple-choice2']"]
+REVIEW_MULTICHOICE_SUBTEXT = ["//input[@placeholder='Enter subtext']" , "//*[@id='cdk-drop-list-2']/div[3]/div/div[2]/div[3]/div/input"]
+REVIEW_MULTICHOICE_CHOICE_1 = "//input[@id='multiple-choice20']"
+REVIEW_MULTICHOICE_CHOICE_2 = "//input[@id='multiple-choice21']"
+REVIEW_MULTICHOICE_ADDCHOICE = "//img[@alt='Add option icon']"
+REVIEW_KEBAB_ICON = "(//img[@class='three-dots-icon pointer ng-tns-c761393940-266'])[3]"
+REVIEW_KEBAB_ICON_REMOVE = "//li[@class='ng-tns-c761393940-266']"
+REVIEW_FIELD = "//button[normalize-space()='Fields']"
+REVIEW_UPLOAD_FILE = "//button[normalize-space()='File Upload']"
+REVIEW_UPLOAD_FILE_TITLE = "//input[@id='file-upload4']"
+REVIEW_UPLOAD_FILE_SUB_TEXT = "//input[@placeholder='Enter subtext']"
+REVIEW_LIST_DELETE = ["//div[contains(text(),'Delete Review Module')]", "/html/body/div[4]/div/div[3]/div"]
+REVIEW_DUPLICATE = "//img[@alt='Copy Module']"
+REVIEW_POPUP_CLOSE = "//span[@class='p-dialog-header-close-icon pi pi-times']"
+REVIEW_FIELD_MODULE_NAME = "//*[@id='mainContent']/div[2]/div/app-form-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[1]/app-checkbox/div/p-checkbox"
+REVIEW_FIELD_WHERE_USED = "//*[@id='mainContent']/div[2]/div/app-form-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[2]/app-checkbox/div/p-checkbox"
+REVIEW_FIELD_CTA = "//*[@id='mainContent']/div[2]/div/app-form-listing/div/app-table-search-filter/div/div/div[1]/div/div/div/div[3]/app-checkbox/div/p-checkbox"
+REVIEW_ROWPERPAGE_OPTION = "//span[@aria-label='Rows per page']"
+REVIEW_ROWPERPAGE_20 = "//span[@class='ng-star-inserted'][normalize-space()='20']"
+REVIEW_ROWPERPAGE_100 = "//span[normalize-space()='100']"
+REVIEW_ROWPERPAGE_1000 = "//span[normalize-space()='1000']"
+REVIEW_LIST_ECLIPSE = "//body[1]/app-root[1]/app-brand-main[1]/div[1]/div[1]/div[2]/div[2]/div[1]/app-form-listing[1]/p-table[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[7]/app-row-options[1]/div[1]"
+REVIEW_LIST_ECLIPSE_EDIT = "//div[contains(text(),'Edit Review Module')]"
+REVIEW_SELECT_ALL = ["//app-checkbox[@name='tableHeaderCheckbox']","//*[@id='selectAllCol']/app-checkbox"]
+
 
 ### SWEEPSTAKES MODULE ##
 ## SWEEPSTAKES MODULE ##

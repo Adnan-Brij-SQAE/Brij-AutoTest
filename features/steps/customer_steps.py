@@ -176,7 +176,7 @@ def step_impl(context):
     try:
         helper = Envi_Helper(context.page)
         with allure.step("Verify customer count is displayed"):
-            helper.wait_till_element_is_present(locators.CUSTOMER_COUNT,10)
+            helper.get_value(locators.CUSTOMER_COUNT,10)
             log.info("Customer count is displayed")
             time.sleep(2)
             allure.attach("Customer count is displayed", name="UI Verification", attachment_type=AttachmentType.TEXT)
