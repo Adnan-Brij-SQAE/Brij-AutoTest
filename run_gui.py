@@ -6,9 +6,9 @@ import webbrowser
 import threading
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 
-HTML_REPORT_DIR = r"D:\Vqode\Brij-AutoTest\Report\allure_report"
+TEST_DIR = "."
+HTML_REPORT_DIR = "Report/allure_report"
 HTML_REPORT_FILE = "index.html"
-TEST_DIR = r"D:\Vqode\Brij-AutoTest"
 HTTP_PORT = 8888
 
 def get_bat_files():
