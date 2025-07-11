@@ -27,7 +27,6 @@ class Envi_Helper:
                     log.info(f"Trying to fill {sel} with: {text}")
                     try:
                         element = self.page.locator(sel)
-                        element.wait_for(state='visible', timeout=timeout)
                         element.clear()
                         element.fill(text)
                         log.info(f"Filled successfully: {sel}")

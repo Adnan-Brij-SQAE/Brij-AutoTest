@@ -127,8 +127,9 @@ def step_use_search_feature(context):
     with allure.step("User uses the search feature"):
         try:
             helper = Envi_Helper(context.page)
+            log.info("searching with the value test")
             helper.insert_text_in_input_field(locators.DOCUMENT_SEARCH, "test", 10)
-            time.sleep(4)
+            time.sleep(5)
         except Exception as e:
             log.error(f"Search feature failed: {e}")
             allure.attach(str(e), name="Search Feature Error", attachment_type=AttachmentType.TEXT)
@@ -190,14 +191,17 @@ def step_create_new_module(context):
         try:
             helper = Envi_Helper(context.page)
             helper.wait_till_element_is_present_to_click(locators.DOCUMENT_NEW_MODULE)
-            helper.insert_text_in_input_field(locators.DOCUMENT_POPUP_MODULE_NAME, "Auto Document Module", 10)
-            helper.insert_text_in_input_field(locators.DOCUMENT_POPUP_CTA, "AUto CTA Text", 10)
+            helper.get_value(locators.DOCUMENT_DIALOG_Add)
+            time.sleep(2)
             try:
-                helper.upload_file_using_file_chooser(locators.DOCUMENT_POPUP_UPLOAD,"test.pdf")
-                time.sleep(2)
-            except Exception as e:
-                log.error(f"File upload failed: {e}")
-                allure.attach(str(e), name="Upload Error", attachment_type=AttachmentType.TEXT)
+                helper.insert_text_in_input_field(locators.DOCUMENT_POPUP_MODULE_NAME, "Auto Document Module", 10)
+                helper.insert_text_in_input_field(locators.DOCUMENT_POPUP_CTA, "AUto CTA Text", 10)
+            except:
+                page = context.page
+                page.get_by_role("textbox", name="Enter module name...").fill("Auto test Document")
+                page.get_by_role("textbox", name="Enter call to action...").fill("Auto Test CTA")
+            helper.upload_file_using_file_chooser(locators.DOCUMENT_POPUP_UPLOAD,"test.pdf")
+            time.sleep(2)
             helper.capture_screenshot()
             helper.wait_till_element_is_present_to_click(locators.DOCUMENT_POPUP_SAVE_BUTTON)
             helper.wait_till_element_is_present_to_click(locators.DOCUMENT_POPUP_CLOSE)
@@ -225,11 +229,18 @@ def step_edit_module(context):
     with allure.step("User edits an existing Document module"):
         try:
             helper = Envi_Helper(context.page)
+            helper.insert_text_in_input_field(locators.DOCUMENT_SEARCH, "Auto", 10)
+            time.sleep(2)
             helper.wait_till_element_is_present_to_click(locators.DOCUMENT_KEBAB_MENU)
             helper.wait_till_element_is_present_to_click(locators.DOCUMENT_EDIT_MODULE)
             helper.get_value(locators.DOCUMENT_ADD_EDIT_MODULE)
-            helper.insert_text_in_input_field(locators.DOCUMENT_POPUP_MODULE_NAME, "Auto Updated name")
-            helper.insert_text_in_input_field(locators.DOCUMENT_POPUP_CTA, "UpdatedText")
+            try:
+                helper.insert_text_in_input_field(locators.DOCUMENT_POPUP_MODULE_NAME, "Auto Updated name")
+                helper.insert_text_in_input_field(locators.DOCUMENT_POPUP_CTA, "UpdatedText")
+            except:
+                page = context.page
+                page.get_by_role("textbox", name="Enter module name...").fill("Auto Updated test Document")
+                page.get_by_role("textbox", name="Enter call to action...").fill("Auto Updated Test CTA")
             helper.capture_screenshot()
             helper.wait_till_element_is_present_to_click(locators.DOCUMENT_POPUP_SAVE_BUTTON)
             helper.wait_till_element_is_present_to_click(locators.DOCUMENT_POPUP_CLOSE)
@@ -264,8 +275,6 @@ def step_verify_module_deleted(context):
     with allure.step("Verify Delete more than one module"):
         try:
             helper = Envi_Helper(context.page)
-            helper.insert_text_in_input_field(locators.DOCUMENT_SEARCH, "Auto", 10)
-            time.sleep(2)
             helper.wait_till_element_is_present_to_click(locators.DOCUMENT_SELECT_ALL_CHECKBOXES)
             helper.wait_till_element_is_present_to_click(locators.DOCUMENT_DELETE_ALL_BUTTON)
             time.sleep(2)

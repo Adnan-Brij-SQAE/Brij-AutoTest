@@ -147,9 +147,10 @@ def step_impl(context):
 def step_impl(context):
     with allure.step("User searches for module"):
         try:
+            log.info("searching with Test")
             Envi_Helper(context.page).insert_text_in_input_field(locators.AB899_SEARCH, "test", 10)
-            Envi_Helper(context.page).capture_screenshot()
             time.sleep(2)
+            Envi_Helper(context.page).capture_screenshot()
             allure.attach("Search performed", name="Search Action", attachment_type=allure.attachment_type.TEXT)
         except Exception as e:
             log.error(f"Search failed: {e}")
@@ -176,9 +177,14 @@ def step_impl(context):
             Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.AB899_NEW_MODULE)
             Envi_Helper(context.page).capture_screenshot()
             time.sleep(2)
-            Envi_Helper(context.page).insert_text_in_input_field(locators.AB899_POPUP_MODULE_NAME, "Auto Ab-899 Test",10)
-            Envi_Helper(context.page).insert_text_in_input_field(locators.AB899_POPUP_CTA, "Testing", 10)
-            Envi_Helper(context.page).insert_text_in_input_field(locators.AB899_POPUP_EDITOR, "Demo", 10)
+            try:
+                Envi_Helper(context.page).insert_text_in_input_field(locators.AB899_POPUP_MODULE_NAME, "Auto Ab-899 Test",10)
+                Envi_Helper(context.page).insert_text_in_input_field(locators.AB899_POPUP_CTA, "Testing", 10)
+                Envi_Helper(context.page).insert_text_in_input_field(locators.AB899_POPUP_EDITOR, "Demo", 10)
+            except:
+                page = context.page
+                page.get_by_role("textbox", name="Enter module name...").fill("Auto test Document")
+                page.get_by_role("textbox", name="Enter call to action...").fill("Auto Test CTA")
             Envi_Helper(context.page).capture_screenshot()
             Envi_Helper(context.page).wait_till_element_is_present_to_click(locators.AB899_POPUP_SAVE_BUTTON)
             time.sleep(2)

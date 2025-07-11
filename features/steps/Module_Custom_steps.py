@@ -231,6 +231,7 @@ def step_delete_multiple_custom_modules(context):
 @when('the user searches for a Custom module')
 def step_search_custom_module(context):
     helper = Envi_Helper(context.page)
+    log.info("searching")
     helper.insert_text_in_input_field(locators.CUSTOM_SEARCH, "test")
 
     allure.attach("search custom module", name="search functionality")
