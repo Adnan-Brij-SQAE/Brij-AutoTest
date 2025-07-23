@@ -167,7 +167,12 @@ def step_impl(context):
 
             helper.insert_text_in_input_field(locators.REBATE_CAMPAIGN_POPUP_MODULE_NAME,"Auto Rebate Campaign")
             log.info("Named the  Rebate Campaign Popup")
-            helper.capture_screenshot()
+            try:
+                helper.wait_till_element_is_present_to_click(locators.REBATE_CAMPAIGN_PAYOUT_TYPE1)
+                helper.wait_till_element_is_present_to_click(locators.REBATE_CAMPAIGN_PAYOUT_TYPE_VENMO)
+            except:
+                helper.wait_till_element_is_present_to_click(locators.REBATE_CAMPAIGN_PAYOUT_TYPE)
+                helper.wait_till_element_is_present_to_click(locators.REBATE_CAMPAIGN_PAYOUT_TYPE_VENMO)
             helper.wait_till_element_is_present_to_click(locators.REBATE_CAMPAIGN_NUMBER)
             helper.wait_till_element_is_present_to_click(locators.REBATE_CAMPAIGN_NUMBER_none)
             helper.insert_text_in_input_field(locators.REBATE_CAMPAIGN_GRACE,"5")
@@ -234,6 +239,7 @@ def step_impl(context):
             log.info("New Rebate Campaign module created")
         except Exception as e:
             helper.wait_till_element_is_present_to_click(locators.REBATE_CAMPAIGN_SAVE)
+            time.sleep(2)
             helper.wait_till_element_is_present_to_click(locators.REBATE_CAMPAIGN_CLOSE)
             keyboard.press_and_release('Esc')
             log.error(f"Creation of new Rebate Campaign module failed: {e}")
